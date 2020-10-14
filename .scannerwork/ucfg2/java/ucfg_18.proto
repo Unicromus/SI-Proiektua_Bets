@@ -1,0 +1,93 @@
+
+;domain.Erabiltzailea#removeBetMatchResult(Ldomain/Result;)ZÉ
+wC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Erabiltzailea.javaº º($"7*á
+2É
+wC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Erabiltzailea.java¿ ¿(®
+•
+É
+wC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Erabiltzailea.java¿ ¿(
+b
+domain.Bet"__id*
+""»
+≈
+É
+wC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Erabiltzailea.java¿ ¿(
+b
+domain.Bet"
+__arrayGet*
+
+%1java.util.Vector*
+""*
+4
+1*û
+3É
+wC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Erabiltzailea.java√ √(çä
+É
+wC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Erabiltzailea.java√ √(
+%5boolean"-domain.Erabiltzailea#removeBet(Ldomain/Bet;)Z*
+domain.Erabiltzailea*
+
+b
+domain.Bet2removeBet(Ldomain/Bet;)*
+2*ˇ
+4É
+wC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Erabiltzailea.java¡' ¡((π∂
+É
+wC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Erabiltzailea.java¡ ¡(&
+%2domain.BetContainer"domain.BetContainerÍ
+Á
+É
+wC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Erabiltzailea.java¡ ¡()
+%3")domain.BetContainer#<init>(Ldomain/Bet;)V*
+
+%2domain.BetContainer*
+
+b
+domain.Bet«
+ƒ
+É
+wC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Erabiltzailea.java¡ ¡(*
+bcdomain.BetContainer"__id*
+
+%2domain.BetContainer¯ı
+É
+wC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Erabiltzailea.java¬ ¬(
+%4domain.Result".domain.BetContainer#getResult()Ldomain/Result;*
+
+bcdomain.BetContainer2getResult()*
+2
+3*ˇ
+5É
+wC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Erabiltzailea.java¿ ¿(ÓÎ
+É
+wC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Erabiltzailea.java¿ ¿(
+%1java.util.Vector")domain.Result#getBets()Ljava/util/Vector;*
+
+redomain.Result2	getBets()*
+2*ö
+6É
+wC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Erabiltzailea.javaæ
+ æ("é
+É
+wC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Erabiltzailea.javaæ æ(
+""*‡
+7É
+wC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Erabiltzailea.javaΩ Ω(
+Ã
+…
+É
+wC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Erabiltzailea.javaΩ Ω(
+
+%0java.util.Vector"__id*#*!
+domain.Erabiltzailea"
+ebets*
+5
+6*ö
+1É
+wC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Erabiltzailea.java≈
+ ≈("é
+É
+wC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Erabiltzailea.java≈ ≈(
+"":
+redomain.ResultB
+domain.Erabiltzailea

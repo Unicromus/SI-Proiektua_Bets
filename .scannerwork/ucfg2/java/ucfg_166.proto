@@ -1,0 +1,39 @@
+
+QdataAccess.DataAccess#getResultContainer(Ldomain/Result;)Ldomain/ResultContainer;„
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java’ ’(*"1*õ
+
+1„
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java“ “(ÿü
+„
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java“$ “(9
+%0java.lang.Integer"/domain.Result#getFeeNumber()Ljava/lang/Integer;*
+
+resultdomain.Result2getFeeNumber()­
+ª
+„
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java“ “(;
+redomain.Result"__id*
+""À½
+„
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java” ”(*
+%1domain.ResultContainer"domain.ResultContainerø
+õ
+„
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java” ”(.
+%2"/domain.ResultContainer#<init>(Ldomain/Result;)V*
+
+%1domain.ResultContainer*
+
+redomain.ResultÎ
+Ë
+„
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java” ”(/
+RCdomain.ResultContainer"__id*
+
+%1domain.ResultContainer"§
+„
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java• •(
+
+RCdomain.ResultContainer:
+resultdomain.ResultB
+dataAccess.DataAccess

@@ -1,0 +1,59 @@
+
+5domain.SuperBetContainer#toString()Ljava/lang/String;…
+{C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/SuperBetContainer.java ("1*¬
+1…
+{C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/SuperBetContainer.java 	  (Ô
+Ñ
+…
+{C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/SuperBetContainer.java 	  (
+%0domain.SuperBet"__id***(
+domain.SuperBetContainer"
+
+superBetÍ
+Ê
+…
+{C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/SuperBetContainer.java 	  (
+%1java.lang.String"__concat*
+
+%0domain.SuperBet*
+/Þ
+Û
+…
+{C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/SuperBetContainer.java   (#
+%2domain.Erabiltzailea"__id*/*-
+domain.SuperBetContainer"
+erabiltzaileaå
+â
+…
+{C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/SuperBetContainer.java 	  (#
+%3java.lang.String"__concat*
+
+%1java.lang.String*
+
+%2domain.ErabiltzaileaÎ
+Ë
+…
+{C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/SuperBetContainer.java 	  ('
+%4java.lang.String"__concat*
+
+%3java.lang.String*
+/Ô
+Ñ
+…
+{C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/SuperBetContainer.java (  (/
+%5java.util.Vector"__id*)*'
+domain.SuperBetContainer"	
+resultsá
+Þ
+…
+{C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/SuperBetContainer.java 	  (/
+%6java.lang.String"__concat*
+
+%4java.lang.String*
+
+%5java.util.Vector"¢
+…
+{C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/SuperBetContainer.java   (0
+
+%6java.lang.StringB
+domain.SuperBetContainer

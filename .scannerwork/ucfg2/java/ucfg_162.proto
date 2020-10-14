@@ -1,0 +1,3682 @@
+
+%dataAccess.DataAccess#initializeDB()VÇ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaT T("356*“
+330Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javau u(A∫
+∑
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javau u(A
+ev2domain.Event"__id*
+
+%26domain.EventÅ
+˛
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javav* v(<
+%28java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+329*È
+331Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javau u(@´®
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javau u(
+%26domain.Event"domain.Eventß
+§
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javau u(@
+%27"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%26domain.Event*2*
+Eibar-Barcelona*
+
+%25java.util.Date*
+330*’
+210Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÊ Ê(
+øº
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÊ Ê(3
+%189domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev1domain.Event*
+Who will win the match?*22 addQuestion(Ljava/lang/String;F)*
+209*“
+332Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javat t(C∫
+∑
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javat t(C
+ev1domain.Event"__id*
+
+%23domain.EventÅ
+˛
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javau- u(?
+%25java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+331*Î
+333Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javat t(B´®
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javat t(
+%23domain.Event"domain.Event©
+¶
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javat t(B
+%24"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%23domain.Event*2*
+Atletico-Athletic*
+
+%22java.util.Date*
+332*∏
+212Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÂ Â(8ùö
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÂ Â(8
+%188boolean",java.util.Locale#equals(Ljava/lang/Object;)Z*
+
+%185java.util.Locale*
+
+%186java.util.Locale2equals(Ljava/lang/Object;)*
+
+182
+210*ï
+334Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javat t(Å
+˛
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javat/ t(A
+%22java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+333*≥
+213Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÂ2 Â(6∂≥
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÂ+ Â(1
+%186java.util.Locale"java.util.Locale‰
+·
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÂ' Â(7
+%187",java.util.Locale#<init>(Ljava/lang/String;)V*
+
+%186java.util.Locale*
+en*
+212*Å
+214Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÂ Â(Î
+Ë
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÂ Â(
+%185java.util.Locale"/java.util.Locale#getDefault()Ljava/util/Locale;*"
+java.util.Locale*
+213*Ÿ
+215Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java‚ ‚(4√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java‚ ‚(4
+q27domain.Question"__id*
+
+%184domain.Question*
+154*ú
+216Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java· ·(A√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java· ·(A
+q26domain.Question"__id*
+
+%183domain.Question¿Ω
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java‚ ‚(4
+%184domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev44domain.Event*
+¬øCuanto tiempo durara?*22 addQuestion(Ljava/lang/String;F)*
+215*®
+217Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java‡ ‡(,√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java‡ ‡(,
+q25domain.Question"__id*
+
+%182domain.QuestionÃ…
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java· ·(A
+%183domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev43domain.Event*'%
+#¬øCuantas rondas durara el combate?*2
+2 addQuestion(Ljava/lang/String;F)*
+216*î
+218Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaﬂ ﬂ(B√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaﬂ ﬂ(B
+q24domain.Question"__id*
+
+%181domain.Question∏µ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java‡ ‡(,
+%182domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev43domain.Event*
+¬øQuien ganara?*22 addQuestion(Ljava/lang/String;F)*
+217*©
+219Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaﬁ ﬁ(T√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaﬁ ﬁ(T
+q23domain.Question"__id*
+
+%180domain.QuestionÕ 
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaﬂ ﬂ(B
+%181domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev42domain.Event*(&
+$¬øQuien quedara en el primer puesto?*2
+2 addQuestion(Ljava/lang/String;F)*
+218*ª
+220Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java› ›(8√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java› ›(8
+q22domain.Question"__id*
+
+%179domain.Questionﬂ‹
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaﬁ ﬁ(T
+%180domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev42domain.Event*:8
+6¬øEn que tiempo acabara la carrera el primer corredor?*22 addQuestion(Ljava/lang/String;F)*
+219*ü
+221Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java‹ ‹(@√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java‹ ‹(@
+q21domain.Question"__id*
+
+%178domain.Question√¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java› ›(8
+%179domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev41domain.Event*
+¬øQuien ganara el partido?*2
+2 addQuestion(Ljava/lang/String;F)*
+220*ß
+222Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java⁄ ⁄(9√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java⁄ ⁄(9
+q20domain.Question"__id*
+
+%177domain.QuestionÀ»
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java‹ ‹(@
+%178domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev41domain.Event*&$
+"¬øCuanto tiempo durara el partido?*22 addQuestion(Ljava/lang/String;F)*
+221*†
+223Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaŸ Ÿ(7√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaŸ Ÿ(7
+q19domain.Question"__id*
+
+%176domain.Questionƒ¡
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java⁄ ⁄(9
+%177domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev40domain.Event*
+¬øQuien perdera el partido?*22 addQuestion(Ljava/lang/String;F)*
+222*›
+345Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javae e(\…
+∆
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javae e(\
+e2domain.Erabiltzailea"__id*
+
+%20domain.Erabiltzailea*
+334*†
+224Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÿ ÿ(B√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÿ ÿ(B
+q18domain.Question"__id*
+
+%175domain.Questionƒ¡
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaŸ Ÿ(7
+%176domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev40domain.Event*
+¬øQuien ganar√° el partido?*22 addQuestion(Ljava/lang/String;F)*
+223*Æ
+346Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javad d([…
+∆
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javad d([
+e1domain.Erabiltzailea"__id*
+
+%18domain.Erabiltzaileaª∏
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javae e('
+%20domain.Erabiltzailea"domain.Erabiltzaileaê
+ç
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javae e([
+%21"ödomain.Erabiltzailea#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*
+
+%20domain.Erabiltzailea* * * *	
+David*
+1234* * * * * * * * * *
+345*©
+225Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java◊ ◊(7√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java◊ ◊(7
+q17domain.Question"__id*
+
+%174domain.QuestionÕ 
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÿ ÿ(B
+%175domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev37domain.Event*(&
+$¬øQue jugador hara la primera falta?*22 addQuestion(Ljava/lang/String;F)*
+224*™
+347Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javac c(b∆
+√
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javac c(b
+	Anonymousdomain.Langilea"__id*
+
+%16domain.Langileaª∏
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javad d('
+%18domain.Erabiltzailea"domain.Erabiltzaileaè
+å
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javad d(Z
+%19"ödomain.Erabiltzailea#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*
+
+%18domain.Erabiltzailea* * * *
+Igor*
+1234* * * * * * * * * *
+346*†
+226Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java÷ ÷(?√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java÷ ÷(?
+q16domain.Question"__id*
+
+%173domain.Questionƒ¡
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java◊ ◊(7
+%174domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev37domain.Event*
+¬øQuien ganar√° el partido?*2	2 addQuestion(Ljava/lang/String;F)*
+225*ò
+348Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javab b(Qæ
+ª
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javab b(Q
+ldomain.Langilea"__id*
+
+%14domain.Langilea±Æ
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javac c($
+%16domain.Langilea"domain.Langileaè
+å
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javac c(a
+%17"ïdomain.Langilea#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*
+
+%16domain.Langilea* * * *
+	Anonymous*
+	Anonymous* * * * * * * * * *
+347*®
+227Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java’ ’(7√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java’ ’(7
+q15domain.Question"__id*
+
+%172domain.QuestionÃ…
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java÷ ÷(?
+%173domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev35domain.Event*'%
+#¬øHabr√° goles en la primera parte?*22 addQuestion(Ljava/lang/String;F)*
+226*â
+349Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaa a(L∏
+µ
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaa a(L
+adomain.Admin"__id*
+
+%12domain.Admin±Æ
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javab b(
+%14domain.Langilea"domain.LangileaÜ
+É
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javab b(P
+%15"ïdomain.Langilea#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*
+
+%14domain.Langilea* * * *	
+Gorka*
+1234* * * * * * * * * *
+348*†
+228Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java‘ ‘(9√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java‘ ‘(9
+q14domain.Question"__id*
+
+%171domain.Questionƒ¡
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java’ ’(7
+%172domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev35domain.Event*
+¬øQuien ganar√° el partido?*22 addQuestion(Ljava/lang/String;F)*
+227*£
+229Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java” ”(7√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java” ”(7
+q13domain.Question"__id*
+
+%170domain.Question«ƒ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java‘ ‘(9
+%171domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev33domain.Event*" 
+¬øCu√°ntos goles se marcar√°n?*22 addQuestion(Ljava/lang/String;F)*
+228*Ä
+350Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java` `(J∫
+∑
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java` `(J
+asddomain.Admin"__id*
+
+%10domain.Admin´®
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaa a(
+%12domain.Admin"domain.AdminÅ
+˛
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaa a(K
+%13"ídomain.Admin#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*
+
+%12domain.Admin* * * *
+
+Alvaro*
+1234* * * * * * * * * *
+349*ç
+351Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java] ](`À
+»
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java] ](`
+Mikeldomain.Erabiltzailea"__id*
+
+%8domain.Erabiltzailea´®
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java` `(
+%10domain.Admin"domain.Admin˝
+˙
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java` `(I
+%11"ídomain.Admin#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*
+
+%10domain.Admin* * * *
+asd*
+asd* * * * * * * * * *
+350*†
+230Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java“ “(:√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java“ “(:
+q12domain.Question"__id*
+
+%169domain.Questionƒ¡
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java” ”(7
+%170domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev33domain.Event*
+¬øQuien ganar√° el partido?*22 addQuestion(Ljava/lang/String;F)*
+229*∂
+352Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java\ \(x”
+–
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java\ \(x%
+Erabiltzaileadomain.Erabiltzailea"__id*
+
+%6domain.Erabiltzailea∫∑
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java] ](*
+%8domain.Erabiltzailea"domain.Erabiltzaileaè
+å
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java] ](_
+%9"ödomain.Erabiltzailea#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*
+
+%8domain.Erabiltzailea* * * *	
+Mikel*	
+Mikel* * * * * * * * * *
+351*£
+231Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java— —(7√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java— —(7
+q11domain.Question"__id*
+
+%168domain.Question«ƒ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java“ “(:
+%169domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev26domain.Event*" 
+¬øQuien meter√° el primer gol?*22 addQuestion(Ljava/lang/String;F)*
+230*∑
+353Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java[ [(_ƒ
+¡
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java[ [(_
+Langileadomain.Langilea"__id*
+
+%4domain.Langilea∫∑
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java\% \(2
+%6domain.Erabiltzailea"domain.Erabiltzaileaü
+ú
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java\! \(w
+%7"ödomain.Erabiltzailea#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*
+
+%6domain.Erabiltzailea* * * *
+Erabiltzailea*
+Erabiltzailea* * * * * * * * * *
+352*†
+232Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaœ œ(8√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaœ œ(8
+q10domain.Question"__id*
+
+%167domain.Questionƒ¡
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java— —(7
+%168domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev26domain.Event*
+¬øQuien ganar√° el partido?*22 addQuestion(Ljava/lang/String;F)*
+231*ê
+354Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaZ Z(Pª
+∏
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaZ Z(P
+Admindomain.Admin"__id*
+
+%2domain.Admin∞≠
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java[ [(#
+%4domain.Langilea"domain.Langileaã
+à
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java[ [(^
+%5"ïdomain.Langilea#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*
+
+%4domain.Langilea* * * *
+
+Langilea*
+
+Langilea* * * * * * * * * *
+353*ü
+233Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaŒ Œ(6¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaŒ Œ(6
+q9domain.Question"__id*
+
+%166domain.Questionƒ¡
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaœ œ(8
+%167domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev21domain.Event*
+¬øQuien perdera el partido?*22 addQuestion(Ljava/lang/String;F)*
+232*˝
+355Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaX X(M∫
+∑
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaX X(M
+Juandomain.Admin"__id*
+
+%0domain.Admin™ß
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaZ Z(
+%2domain.Admin"domain.Adminˇ
+¸
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaZ Z(O
+%3"ídomain.Admin#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*
+
+%2domain.Admin* * * *	
+Admin*	
+Admin* * * * * * * * * *
+354*ü
+234Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÕ Õ(@¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÕ Õ(@
+q8domain.Question"__id*
+
+%165domain.Questionƒ¡
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaŒ Œ(6
+%166domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev21domain.Event*
+¬øQuien ganar√° el partido?*22 addQuestion(Ljava/lang/String;F)*
+233*æ
+356Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaX X(™ß
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaX X(
+%0domain.Admin"domain.Admin˝
+˙
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaX X(L
+%1"ídomain.Admin#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*
+
+%0domain.Admin* * * *
+Juan*
+Juan* * * * * * * * * *
+355*®
+235Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÃ Ã(6¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÃ Ã(6
+q7domain.Question"__id*
+
+%164domain.QuestionÕ 
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÕ Õ(@
+%165domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev18domain.Event*(&
+$¬øQue jugador hara la primera falta?*22 addQuestion(Ljava/lang/String;F)*
+234*ü
+236Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÀ À(>¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÀ À(>
+q6domain.Question"__id*
+
+%163domain.Questionƒ¡
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÃ Ã(6
+%164domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev18domain.Event*
+¬øQuien ganar√° el partido?*22 addQuestion(Ljava/lang/String;F)*
+235*‘
+115Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java– –()ø
+º
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java– –()
+r50domain.Result"__id*
+
+%281domain.Result*
+13*ß
+237Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java   (6¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java   (6
+q5domain.Question"__id*
+
+%162domain.QuestionÃ…
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÀ À(>
+%163domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev17domain.Event*'%
+#¬øHabr√° goles en la primera parte?*22 addQuestion(Ljava/lang/String;F)*
+236*Ç
+116Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaœ œ()ø
+º
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaœ œ()
+r49domain.Result"__id*
+
+%280domain.Result™ß
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java– –((
+%281domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q27domain.Question*
+-10m*22addResult(Ljava/lang/String;F)*
+115*ü
+238Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java… …(8¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java… …(8
+q4domain.Question"__id*
+
+%161domain.Questionƒ¡
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java   (6
+%162domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev17domain.Event*
+¬øQuien ganar√° el partido?*22 addQuestion(Ljava/lang/String;F)*
+237*Ç
+117Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaŒ Œ(.ø
+º
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaŒ Œ(.
+r48domain.Result"__id*
+
+%279domain.Result™ß
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaœ œ((
+%280domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q27domain.Question*
++10m*22addResult(Ljava/lang/String;F)*
+116*¢
+239Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java» »(6¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java» »(6
+q3domain.Question"__id*
+
+%160domain.Question«ƒ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java… …(8
+%161domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev11domain.Event*" 
+¬øCu√°ntos goles se marcar√°n?*22 addQuestion(Ljava/lang/String;F)*
+238*á
+118Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÕ Õ(.ø
+º
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÕ Õ(.
+r47domain.Result"__id*
+
+%278domain.ResultØ¨
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaŒ Œ(-
+%279domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q26domain.Question*
+	+6 rounds*22addResult(Ljava/lang/String;F)*
+117*á
+119Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÃ Ã(/ø
+º
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÃ Ã(/
+r46domain.Result"__id*
+
+%277domain.ResultØ¨
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÕ Õ(-
+%278domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q26domain.Question*
+	-6 rounds*22addResult(Ljava/lang/String;F)*
+118*ñ
+10Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java√ √(*∂≥
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java√ √((
+%286java.util.Vector"java.util.Vector 
+«
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java√ √(*
+%287"java.util.Vector#<init>()V*
+
+%286java.util.Vector*
+9*
+11Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¡ ¡(‹
+Ÿ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¡ ¡(
+%285boolean"
+__arrayAdd*
+
+rjava.util.Vector*: *
+
+r44domain.Result*
+10*∂
+12Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaø ø(*√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaø ø(*
+rjava.util.Vector"__id*
+
+%282java.util.Vector‹
+Ÿ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¿ ¿(
+%284boolean"
+__arrayAdd*
+
+rjava.util.Vector*: *
+
+r32domain.Result*
+11*ó
+13Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaø ø()∂≥
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaø ø('
+%282java.util.Vector"java.util.Vector 
+«
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaø ø()
+%283"java.util.Vector#<init>()V*
+
+%282java.util.Vector*
+12*ü
+240Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java« «(8¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java« «(8
+q2domain.Question"__id*
+
+%159domain.Questionƒ¡
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java» »(6
+%160domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev11domain.Event*
+¬øQuien ganar√° el partido?*22 addQuestion(Ljava/lang/String;F)*
+239*°
+241Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∆ ∆(5¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∆ ∆(5
+q1domain.Question"__id*
+
+%158domain.Question∆√
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java« «(8
+%159domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev1domain.Event*" 
+¬øQuien meter√° el primer gol?*22 addQuestion(Ljava/lang/String;F)*
+240*à
+120Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÀ À(/ø
+º
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÀ À(/
+r45domain.Result"__id*
+
+%276domain.Result∞≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÃ Ã(.
+%277domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q25domain.Question*
+
+Berdinketa*22addResult(Ljava/lang/String;F)*
+119*Ÿ
+242Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∆ ∆(
+√¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∆ ∆(5
+%158domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev1domain.Event*
+¬øQuien ganar√° el partido?*22 addQuestion(Ljava/lang/String;F)*
+241*à
+121Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java   (-ø
+º
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java   (-
+r44domain.Result"__id*
+
+%275domain.Result∞≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÀ À(.
+%276domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q25domain.Question*
+
+Mayweather*22addResult(Ljava/lang/String;F)*
+120*§
+0 "ú
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java◊ ◊(
+implicit return*Ü
+122Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java… …(3ø
+º
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java… …(3
+r43domain.Result"__id*
+
+%274domain.ResultÆ´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java   (,
+%275domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q25domain.Question*
+
+McGregor*22addResult(Ljava/lang/String;F)*
+121*∏
+244Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java≈ ≈(3ùö
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java≈ ≈(3
+%157boolean",java.util.Locale#equals(Ljava/lang/Object;)Z*
+
+%154java.util.Locale*
+
+%155java.util.Locale2equals(Ljava/lang/Object;)*
+
+214
+242*å
+123Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java» »(0ø
+º
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java» »(0
+r42domain.Result"__id*
+
+%273domain.Result¥±
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java… …(2
+%274domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q24domain.Question*
+Steve Mullings*22addResult(Ljava/lang/String;F)*
+122*‰
+2Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java“ “(	µ
+≤
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java“ “(
+%293java.io.PrintStream"__id*
+""öó
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java“ “('
+%294void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%293java.io.PrintStream*
+Db initialized2println(Ljava/lang/String;)*
+0*≥
+245Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java≈- ≈(1∂≥
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java≈& ≈(,
+%155java.util.Locale"java.util.Locale‰
+·
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java≈" ≈(2
+%156",java.util.Locale#<init>(Ljava/lang/String;)V*
+
+%155java.util.Locale*
+es*
+244*â
+124Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java« «(.ø
+º
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java« «(.
+r41domain.Result"__id*
+
+%272domain.Result±Æ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java» »(/
+%273domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q24domain.Question*
+Yohan Blake*22addResult(Ljava/lang/String;F)*
+123*ó
+3Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÃ Ã(ÖÇ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÃ Ã("
+%292void"RdataAccess.DataAccess#superApustuaEgin(Ldomain/Erabiltzailea;FLjava/util/Vector;)V*
+dataAccess.DataAccess*
+
+Mikeldomain.Erabiltzailea*2!*
+
+rejava.util.Vector2;superApustuaEgin(Ldomain/Erabiltzailea;FLjava/util/Vector;)*
+2*ö*
+246Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java• •(Gæ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java• •(G
+ev44domain.Event"__id*
+
+%152domain.EventØ
+¨
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java® ®(
+q1domain.Question"__id*
+""Ø
+¨
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java© ©(
+q2domain.Question"__id*
+""Ø
+¨
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java™ ™(
+q3domain.Question"__id*
+""Ø
+¨
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java´ ´(
+q4domain.Question"__id*
+""Ø
+¨
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¨ ¨(
+q5domain.Question"__id*
+""Ø
+¨
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java≠ ≠(
+q6domain.Question"__id*
+""Ø
+¨
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÆ Æ(
+q7domain.Question"__id*
+""Ø
+¨
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaØ Ø(
+q8domain.Question"__id*
+""Ø
+¨
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∞ ∞(
+q9domain.Question"__id*
+""∞
+≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java± ±(
+q10domain.Question"__id*
+""∞
+≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java≥ ≥(
+q11domain.Question"__id*
+""∞
+≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¥ ¥(
+q12domain.Question"__id*
+""∞
+≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaµ µ(
+q13domain.Question"__id*
+""∞
+≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∂ ∂(
+q14domain.Question"__id*
+""∞
+≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∑ ∑(
+q15domain.Question"__id*
+""∞
+≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∏ ∏(
+q16domain.Question"__id*
+""∞
+≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaπ π(
+q17domain.Question"__id*
+""∞
+≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∫ ∫(
+q18domain.Question"__id*
+""∞
+≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaª ª(
+q19domain.Question"__id*
+""∞
+≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaº º(
+q20domain.Question"__id*
+""∞
+≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaΩ Ω(
+q21domain.Question"__id*
+""∞
+≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaæ æ(
+q22domain.Question"__id*
+""∞
+≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaø ø(
+q23domain.Question"__id*
+""∞
+≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¿ ¿(
+q24domain.Question"__id*
+""∞
+≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¡ ¡(
+q25domain.Question"__id*
+""∞
+≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¬ ¬(
+q26domain.Question"__id*
+""∞
+≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java√ √(
+q27domain.Question"__id*
+""Î
+Ë
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java≈ ≈(
+%154java.util.Locale"/java.util.Locale#getDefault()Ljava/util/Locale;*"
+java.util.Locale*
+245*á
+125Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∆ ∆(4ø
+º
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∆ ∆(4
+r40domain.Result"__id*
+
+%271domain.ResultØ¨
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java« «(-
+%272domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q24domain.Question*
+	Tyson Gay*22addResult(Ljava/lang/String;F)*
+124*ñ
+4Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÀ À(ÑÅ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÀ À("
+%291void"RdataAccess.DataAccess#superApustuaEgin(Ldomain/Erabiltzailea;FLjava/util/Vector;)V*
+dataAccess.DataAccess*
+
+Mikeldomain.Erabiltzailea*2p*
+
+rjava.util.Vector2;superApustuaEgin(Ldomain/Erabiltzailea;FLjava/util/Vector;)*
+3*˜
+247Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java• •(FÆ´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java• •(
+%152domain.Event"domain.Event∞
+≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java• •(F
+%153"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%152domain.Event*2,*
+Demoaren aurkezpena*
+
+%151java.util.Date*
+246*ç
+126Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java≈ ≈(4ø
+º
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java≈ ≈(4
+r39domain.Result"__id*
+
+%270domain.Resultµ≤
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∆ ∆(3
+%271domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q24domain.Question*
+Murielle Ahoure*22addResult(Ljava/lang/String;F)*
+125*å
+5Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java   (˙˜
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java   (
+%290void"&domain.Erabiltzailea#setDiruzorroa(F)V*
+
+Mikeldomain.Erabiltzailea*2à'2setDiruzorroa(F)*
+4*€
+248Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java§ §(Mæ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java§ §(M
+ev43domain.Event"__id*
+
+%149domain.EventÑ
+Å
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java•3 •(E
+%151java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+247*ç
+127Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaƒ ƒ(5ø
+º
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaƒ ƒ(5
+r38domain.Result"__id*
+
+%269domain.Resultµ≤
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java≈ ≈(3
+%270domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q24domain.Question*
+Christine Arron*22addResult(Ljava/lang/String;F)*
+126*˝
+249Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java§ §(LÆ´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java§ §(
+%149domain.Event"domain.Event∂
+≥
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java§ §(L
+%150"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%149domain.Event*2+*
+McGregor-Floyd Mayweather*
+
+%148java.util.Date*
+248*é
+128Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java√ √(4ø
+º
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java√ √(4
+r37domain.Result"__id*
+
+%268domain.Result∂≥
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaƒ ƒ(4
+%269domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q24domain.Question*
+Francis Obikwelu*22addResult(Ljava/lang/String;F)*
+127*ç
+129Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¬ ¬(/ø
+º
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¬ ¬(/
+r36domain.Result"__id*
+
+%267domain.Resultµ≤
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java√ √(3
+%268domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q24domain.Question*
+Griffith Joyner*22addResult(Ljava/lang/String;F)*
+128*Ô
+8Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java≈ ≈(›
+⁄
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java≈ ≈(
+%289boolean"
+__arrayAdd*
+
+rejava.util.Vector*: *
+
+r45domain.Result*
+5*∂
+9Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java√ √(+ƒ
+¡
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java√ √(+
+rejava.util.Vector"__id*
+
+%286java.util.Vector›
+⁄
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaƒ ƒ(
+%288boolean"
+__arrayAdd*
+
+rejava.util.Vector*: *
+
+r32domain.Result*
+8*€
+250Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java£ £(Eæ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java£ £(E
+ev42domain.Event"__id*
+
+%146domain.EventÑ
+Å
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java§9 §(K
+%148java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+249*ˆ
+251Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java£ £(DÆ´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java£ £(
+%146domain.Event"domain.EventØ
+¨
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java£ £(D
+%147"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%146domain.Event*2**
+100m-ko lasterketa*
+
+%145java.util.Date*
+250*à
+130Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¡ ¡()ø
+º
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¡ ¡()
+r35domain.Result"__id*
+
+%266domain.Result∞≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¬ ¬(.
+%267domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q24domain.Question*
+
+Usain Bolt*22addResult(Ljava/lang/String;F)*
+129*€
+252Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¢ ¢(Læ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¢ ¢(L
+ev41domain.Event"__id*
+
+%143domain.EventÑ
+Å
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java£2 £(C
+%145java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2	*
+251*Ç
+131Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¿ ¿()ø
+º
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¿ ¿()
+r34domain.Result"__id*
+
+%265domain.Result™ß
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¡ ¡((
+%266domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q23domain.Question*
+-10s*22addResult(Ljava/lang/String;F)*
+130*¸
+253Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¢ ¢(KÆ´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¢ ¢(
+%143domain.Event"domain.Eventµ
+≤
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¢ ¢(K
+%144"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%143domain.Event*2)*
+Rafa Nadal-Roger Federer*
+
+%142java.util.Date*
+252*Ç
+132Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaø ø(2ø
+º
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaø ø(2
+r33domain.Result"__id*
+
+%264domain.Result™ß
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¿ ¿((
+%265domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q23domain.Question*
++10s*22addResult(Ljava/lang/String;F)*
+131*€
+254Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java† †(Eæ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java† †(E
+ev40domain.Event"__id*
+
+%140domain.EventÑ
+Å
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¢8 ¢(J
+%142java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+253*ã
+133Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaæ æ(/ø
+º
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaæ æ(/
+r32domain.Result"__id*
+
+%263domain.Result≥∞
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaø ø(1
+%264domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q22domain.Question*
+Roger Federer*22addResult(Ljava/lang/String;F)*
+132*ı
+255Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java† †(DÆ´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java† †(
+%140domain.Event"domain.EventÆ
+´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java† †(D
+%141"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%140domain.Event*2(*
+Betis-Real Madrid*
+
+%139java.util.Date*
+254*à
+134Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaΩ Ω('ø
+º
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaΩ Ω('
+r31domain.Result"__id*
+
+%262domain.Result∞≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaæ æ(.
+%263domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q22domain.Question*
+
+Rafa Nadal*22addResult(Ljava/lang/String;F)*
+133*€
+256Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaü ü(Iæ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaü ü(I
+ev39domain.Event"__id*
+
+%137domain.EventÑ
+Å
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java†1 †(C
+%139java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+255*Ä
+135Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaº º('ø
+º
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaº º('
+r30domain.Result"__id*
+
+%261domain.Result®•
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaΩ Ω(&
+%262domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q21domain.Question*
+2h*22addResult(Ljava/lang/String;F)*
+134*˘
+257Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaü ü(HÆ´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaü ü(
+%137domain.Event"domain.Event≤
+Ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaü ü(H
+%138"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%137domain.Event*2'*
+Real Sociedad-Levante*
+
+%136java.util.Date*
+256*Ä
+136Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∫ ∫("ø
+º
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∫ ∫("
+r10domain.Result"__id*
+
+%260domain.Result®•
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaº º(&
+%261domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q21domain.Question*
+1h*22addResult(Ljava/lang/String;F)*
+135*€
+258Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaû û(Bæ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaû û(B
+ev38domain.Event"__id*
+
+%134domain.EventÑ
+Å
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaü5 ü(G
+%136java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+257*Ç
+137Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaπ π('æ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaπ π('
+r9domain.Result"__id*
+
+%259domain.Result´®
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∫	 ∫("
+%260domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q20domain.Question*	
+Betis*22addResult(Ljava/lang/String;F)*
+136*Û
+259Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaû û(AÆ´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaû û(
+%134domain.Event"domain.Event¨
+©
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaû û(A
+%135"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%134domain.Event*2&*
+Girona-Legan√©s*
+
+%133java.util.Date*
+258*à
+138Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∏ ∏($æ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∏ ∏($
+r8domain.Result"__id*
+
+%258domain.Result±Æ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaπ π('
+%259domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q19domain.Question*
+Real Madrid*22addResult(Ljava/lang/String;F)*
+137*Ö
+139Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∑ ∑(æ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∑ ∑(
+r7domain.Result"__id*
+
+%257domain.ResultÆ´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∏ ∏($
+%258domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q17domain.Question*
+
+Valencia*22addResult(Ljava/lang/String;F)*
+138*€
+260Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaù ù(Cæ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaù ù(C
+ev37domain.Event"__id*
+
+%131domain.EventÑ
+Å
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaû. û(@
+%133java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+259*Û
+261Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaù ù(BÆ´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaù ù(
+%131domain.Event"domain.Event¨
+©
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaù ù(B
+%132"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%131domain.Event*2%*
+Malaga-Valencia*
+
+%130java.util.Date*
+260*ˇ
+140Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∂ ∂(%æ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∂ ∂(%
+r6domain.Result"__id*
+
+%256domain.Result®•
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∑ ∑(
+%257domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q16domain.Question*
+Ez*22addResult(Ljava/lang/String;F)*
+139*€
+262Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaõ õ(Eæ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaõ õ(E
+ev36domain.Event"__id*
+
+%128domain.EventÑ
+Å
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaù/ ù(A
+%130java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+261*Ü
+141Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaµ µ(æ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaµ µ(
+r5domain.Result"__id*
+
+%255domain.ResultØ¨
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java∂ ∂(%
+%256domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q15domain.Question*
+	Villareal*2	2addResult(Ljava/lang/String;F)*
+140*ˆ
+263Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaõ õ(DÆ´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaõ õ(
+%128domain.Event"domain.EventØ
+¨
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaõ õ(D
+%129"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%128domain.Event*2$*
+Las Palmas-Sevilla*
+
+%127java.util.Date*
+262*Ä
+142Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¥ ¥(&æ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¥ ¥(&
+r4domain.Result"__id*
+
+%254domain.Result©¶
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaµ µ(
+%255domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q12domain.Question*
+Zuk*22addResult(Ljava/lang/String;F)*
+141*€
+264Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaö ö(Dæ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaö ö(D
+ev35domain.Event"__id*
+
+%125domain.EventÑ
+Å
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaõ2 õ(C
+%127java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+263*á
+143Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java≥ ≥($æ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java≥ ≥($
+r3domain.Result"__id*
+
+%253domain.Result∞≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¥ ¥(&
+%254domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q11domain.Question*
+
+Las Palmas*22addResult(Ljava/lang/String;F)*
+142*ˆ
+265Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaö ö(CÆ´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaö ö(
+%125domain.Event"domain.EventØ
+¨
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaö ö(C
+%126"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%125domain.Event*2#*
+Espa√±ol-Villareal*
+
+%124java.util.Date*
+264*Ü
+144Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaØ Ø(0ø
+º
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaØ Ø(0
+r10domain.Result"__id*
+
+%252domain.ResultÆ´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java≥ ≥($
+%253domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q10domain.Question*
+
+Atletico*22addResult(Ljava/lang/String;F)*
+143*€
+266Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaô ô(Cæ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaô ô(C
+ev34domain.Event"__id*
+
+%122domain.EventÑ
+Å
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaö1 ö(B
+%124java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+265*à
+145Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÆ Æ()æ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÆ Æ()
+r9domain.Result"__id*
+
+%251domain.Result±Æ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaØ Ø(/
+%252domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q20domain.Question*
+Real Madrid*22addResult(Ljava/lang/String;F)*
+144*ı
+267Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaô ô(BÆ´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaô ô(
+%122domain.Event"domain.EventÆ
+´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaô ô(B
+%123"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%122domain.Event*2"*
+Alav√©s-Deportivo*
+
+%121java.util.Date*
+266*Ç
+146Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java≠ ≠(*æ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java≠ ≠(*
+r8domain.Result"__id*
+
+%250domain.Result´®
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÆ Æ((
+%251domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q19domain.Question*	
+Betis*22addResult(Ljava/lang/String;F)*
+145*€
+268Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaò ò(?æ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaò ò(?
+ev33domain.Event"__id*
+
+%119domain.EventÑ
+Å
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaô0 ô(A
+%121java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+267*É
+147Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¨ ¨((æ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¨ ¨((
+r7domain.Result"__id*
+
+%249domain.Result¨©
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java≠ ≠()
+%250domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q17domain.Question*
+
+Malaga*22addResult(Ljava/lang/String;F)*
+146*
+269Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaò ò(>Æ´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaò ò(
+%119domain.Event"domain.Event©
+¶
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaò ò(>
+%120"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%119domain.Event*2!*
+Getafe-Celta*
+
+%118java.util.Date*
+268*Ä
+148Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java´ ´(+æ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java´ ´(+
+r6domain.Result"__id*
+
+%248domain.Result©¶
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¨ ¨('
+%249domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q16domain.Question*
+Bai*2
+2addResult(Ljava/lang/String;F)*
+147*Ö
+149Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java™ ™()æ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java™ ™()
+r5domain.Result"__id*
+
+%247domain.ResultÆ´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java´ ´(*
+%248domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q15domain.Question*
+
+Espa√±ol*22addResult(Ljava/lang/String;F)*
+148*€
+270Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaó ó(Bæ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaó ó(B
+ev32domain.Event"__id*
+
+%116domain.EventÑ
+Å
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaò, ò(=
+%118java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+269*Û
+271Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaó ó(AÆ´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaó ó(
+%116domain.Event"domain.Event¨
+©
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaó ó(A
+%117"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%116domain.Event*2 *
+Eibar-Barcelona*
+
+%115java.util.Date*
+270*Ç
+150Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java© ©(+æ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java© ©(+
+r4domain.Result"__id*
+
+%246domain.Result´®
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java™ ™((
+%247domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q12domain.Question*	
+Inork*22addResult(Ljava/lang/String;F)*
+149*€
+272Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javañ ñ(Dæ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javañ ñ(D
+ev31domain.Event"__id*
+
+%113domain.EventÑ
+Å
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaó/ ó(@
+%115java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+271*Ñ
+151Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java® ®(,æ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java® ®(,
+r3domain.Result"__id*
+
+%245domain.Result≠™
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java© ©(*
+%246domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q11domain.Question*	
+Sevilla*22addResult(Ljava/lang/String;F)*
+150*ı
+273Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javañ ñ(CÆ´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javañ ñ(
+%113domain.Event"domain.EventÆ
+´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javañ ñ(C
+%114"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%113domain.Event*2*
+Atletico-Athletic*
+
+%112java.util.Date*
+272*Ö
+152Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaß ß(*æ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaß ß(*
+r2domain.Result"__id*
+
+%244domain.ResultÆ´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java® ®(+
+%245domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q10domain.Question*
+
+Athletic*22addResult(Ljava/lang/String;F)*
+151*€
+274Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaî î(Eæ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaî î(E
+ev30domain.Event"__id*
+
+%110domain.EventÑ
+Å
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javañ1 ñ(B
+%112java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+273*É
+153Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¶ ¶(+æ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¶ ¶(+
+r1domain.Result"__id*
+
+%243domain.Result¨©
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaß ß()
+%244domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q1domain.Question*	
+Atletic*22addResult(Ljava/lang/String;F)*
+152*ı
+275Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaî î(DÆ´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaî î(
+%110domain.Event"domain.EventÆ
+´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaî î(D
+%111"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%110domain.Event*2*
+Betis-Real Madrid*
+
+%109java.util.Date*
+274*√
+154Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¶ ¶(≠™
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¶ ¶(*
+%243domain.Result"=domain.Question#addResult(Ljava/lang/String;F)Ldomain/Result;*
+
+q1domain.Question*
+
+Atletico*22addResult(Ljava/lang/String;F)*
+153*€
+276Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaì ì(Iæ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaì ì(I
+ev29domain.Event"__id*
+
+%107domain.EventÑ
+Å
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaî1 î(C
+%109java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+275*Ÿ
+155Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¢ ¢(?√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¢ ¢(?
+q27domain.Question"__id*
+
+%242domain.Question*
+154*˘
+277Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaì ì(HÆ´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaì ì(
+%107domain.Event"domain.Event≤
+Ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaì ì(H
+%108"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%107domain.Event*2*
+Real Sociedad-Levante*
+
+%106java.util.Date*
+276*¶
+156Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java° °(C√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java° °(C
+q26domain.Question"__id*
+
+%241domain.Question «
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¢ ¢(?
+%242domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev44domain.Event*%#
+!Zenbat denbora iraungo du demoak?*22 addQuestion(Ljava/lang/String;F)*
+155*€
+278Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaí í(Bæ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaí í(B
+ev28domain.Event"__id*
+
+%104domain.EventÑ
+Å
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaì5 ì(G
+%106java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+277*©
+157Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java† †(0√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java† †(0
+q25domain.Question"__id*
+
+%240domain.QuestionÕ 
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java° °(C
+%241domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev43domain.Event*(&
+$Zenbat txanda iraungo ditu borrokak?*2
+2 addQuestion(Ljava/lang/String;F)*
+156*Û
+279Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaí í(AÆ´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaí í(
+%104domain.Event"domain.Event¨
+©
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaí í(A
+%105"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%104domain.Event*2*
+Girona-Legan√©s*
+
+%103java.util.Date*
+278*ó
+158Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaü ü(B√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaü ü(B
+q24domain.Question"__id*
+
+%239domain.Questionª∏
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java† †(0
+%240domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev43domain.Event*
+Nork irabaziko du?*22 addQuestion(Ljava/lang/String;F)*
+157*®
+159Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaû û(P√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaû û(P
+q23domain.Question"__id*
+
+%238domain.QuestionÃ…
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaü ü(B
+%239domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev42domain.Event*'%
+#Nor geldituko da lehenengo postuan?*2
+2 addQuestion(Ljava/lang/String;F)*
+158*€
+280Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaë ë(Cæ
+ª
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaë ë(C
+ev27domain.Event"__id*
+
+%101domain.EventÑ
+Å
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaí. í(@
+%103java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+279*Û
+281Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaë ë(BÆ´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaë ë(
+%101domain.Event"domain.Event¨
+©
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaë ë(B
+%102"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%101domain.Event*2*
+Malaga-Valencia*
+
+%100java.util.Date*
+280*∂
+160Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaù ù(:√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaù ù(:
+q22domain.Question"__id*
+
+%237domain.Question⁄◊
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaû û(P
+%238domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev42domain.Event*53
+1Zenbat denbora egingo du lehenengo korrikalariak?*22 addQuestion(Ljava/lang/String;F)*
+159*⁄
+282Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaê ê(FΩ
+∫
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaê ê(F
+ev26domain.Event"__id*
+
+%98domain.EventÑ
+Å
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaë/ ë(A
+%100java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+281*†
+161Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaú ú(C√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaú ú(C
+q21domain.Question"__id*
+
+%236domain.Questionƒ¡
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaù ù(:
+%237domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev41domain.Event*
+Nork irabaziko du partidua?*2
+2 addQuestion(Ljava/lang/String;F)*
+160*Ú
+283Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaê ê(E≠™
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaê ê(
+%98domain.Event"domain.Event¨
+©
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaê ê(E
+%99"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%98domain.Event*2*
+Las Palmas-Sevilla*
+
+%97java.util.Date*
+282*©
+162Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaö ö(:√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaö ö(:
+q20domain.Question"__id*
+
+%235domain.QuestionÕ 
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaú ú(C
+%236domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev41domain.Event*(&
+$Zenbat denbora iraungo du partiduak?*22 addQuestion(Ljava/lang/String;F)*
+161*Ÿ
+284Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaè è(EΩ
+∫
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaè è(E
+ev25domain.Event"__id*
+
+%95domain.EventÉ
+Ä
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaê2 ê(D
+%97java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+283*†
+163Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaô ô(;√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaô ô(;
+q19domain.Question"__id*
+
+%234domain.Questionƒ¡
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaö ö(:
+%235domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev40domain.Event*
+Zeinek galduko du partidua?*22 addQuestion(Ljava/lang/String;F)*
+162*Ú
+285Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaè è(D≠™
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaè è(
+%95domain.Event"domain.Event¨
+©
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaè è(D
+%96"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%95domain.Event*2*
+Espa√±ol-Villareal*
+
+%94java.util.Date*
+284*¢
+164Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaò ò(C√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaò ò(C
+q18domain.Question"__id*
+
+%233domain.Question∆√
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaô ô(;
+%234domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev40domain.Event*!
+Zeinek irabaziko du partidua?*22 addQuestion(Ljava/lang/String;F)*
+163*Ÿ
+286Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaé é(DΩ
+∫
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaé é(D
+ev24domain.Event"__id*
+
+%92domain.EventÉ
+Ä
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaè1 è(C
+%94java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2
+*
+285*©
+165Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaó ó(;√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaó ó(;
+q17domain.Question"__id*
+
+%232domain.QuestionÕ 
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaò ò(C
+%233domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev37domain.Event*(&
+$Zein jokalari egingo du lehen falta?*22 addQuestion(Ljava/lang/String;F)*
+164*Ò
+287Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaé é(C≠™
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaé é(
+%92domain.Event"domain.Event´
+®
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaé é(C
+%93"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%92domain.Event*2*
+Alav√©s-Deportivo*
+
+%91java.util.Date*
+286*¢
+166Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javañ ñ(B√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javañ ñ(B
+q16domain.Question"__id*
+
+%231domain.Question∆√
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaó ó(;
+%232domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev37domain.Event*!
+Zeinek irabaziko du partidua?*2	2 addQuestion(Ljava/lang/String;F)*
+165*Ÿ
+288Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaç ç(@Ω
+∫
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaç ç(@
+ev23domain.Event"__id*
+
+%89domain.EventÉ
+Ä
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaé0 é(B
+%91java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2
+*
+287*©
+167Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaï ï(;√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaï ï(;
+q15domain.Question"__id*
+
+%230domain.QuestionÕ 
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javañ ñ(B
+%231domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev35domain.Event*(&
+$Golak sartuko dira lehenengo zatian?*22 addQuestion(Ljava/lang/String;F)*
+166*Ï
+289Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaç ç(?≠™
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaç ç(
+%89domain.Event"domain.Event¶
+£
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaç ç(?
+%90"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%89domain.Event*2*
+Getafe-Celta*
+
+%88java.util.Date*
+288*¢
+168Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaî î(6√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaî î(6
+q14domain.Question"__id*
+
+%229domain.Question∆√
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaï ï(;
+%230domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev35domain.Event*!
+Zeinek irabaziko du partidua?*22 addQuestion(Ljava/lang/String;F)*
+167*ù
+169Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaì ì(;√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaì ì(;
+q13domain.Question"__id*
+
+%228domain.Question¡æ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaî î(6
+%229domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev33domain.Event*
+Zenbat gol sartuko dira?*22 addQuestion(Ljava/lang/String;F)*
+168*Ÿ
+290Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaå å(CΩ
+∫
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaå å(C
+ev22domain.Event"__id*
+
+%86domain.EventÉ
+Ä
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaç, ç(>
+%88java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2
+*
+289*Ô
+291Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaå å(B≠™
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaå å(
+%86domain.Event"domain.Event©
+¶
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaå å(B
+%87"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%86domain.Event*2*
+Eibar-Barcelona*
+
+%85java.util.Date*
+290*¢
+170Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaí í(?√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaí í(?
+q12domain.Question"__id*
+
+%227domain.Question∆√
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaì ì(;
+%228domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev33domain.Event*!
+Zeinek irabaziko du partidua?*22 addQuestion(Ljava/lang/String;F)*
+169*Ÿ
+292Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaã ã(EΩ
+∫
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaã ã(E
+ev21domain.Event"__id*
+
+%83domain.EventÉ
+Ä
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaå/ å(A
+%85java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2
+*
+291*¶
+171Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaë ë(;√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaë ë(;
+q11domain.Question"__id*
+
+%226domain.Question «
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaí í(?
+%227domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev26domain.Event*%#
+!Zeinek sartuko du lehenengo gola?*22 addQuestion(Ljava/lang/String;F)*
+170*Ò
+293Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaã ã(D≠™
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaã ã(
+%83domain.Event"domain.Event´
+®
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaã ã(D
+%84"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%83domain.Event*2*
+Atletico-Athletic*
+
+%82java.util.Date*
+292*¢
+172Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaè è(9√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaè è(9
+q10domain.Question"__id*
+
+%225domain.Question∆√
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaë ë(;
+%226domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev26domain.Event*!
+Zeinek irabaziko du partidua?*22 addQuestion(Ljava/lang/String;F)*
+171*Ÿ
+294Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaâ â(EΩ
+∫
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaâ â(E
+ev20domain.Event"__id*
+
+%80domain.EventÉ
+Ä
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaã1 ã(C
+%82java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2
+*
+293*ü
+173Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaé é(:¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaé é(:
+q9domain.Question"__id*
+
+%224domain.Questionƒ¡
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaè è(9
+%225domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev21domain.Event*
+Zeinek galduko du partidua?*22 addQuestion(Ljava/lang/String;F)*
+172*Ò
+295Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaâ â(D≠™
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaâ â(
+%80domain.Event"domain.Event´
+®
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaâ â(D
+%81"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%80domain.Event*2*
+Betis-Real Madrid*
+
+%79java.util.Date*
+294*°
+174Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaç ç(A¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaç ç(A
+q8domain.Question"__id*
+
+%223domain.Question∆√
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaé é(:
+%224domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev21domain.Event*!
+Zeinek irabaziko du partidua?*22 addQuestion(Ljava/lang/String;F)*
+173*Ÿ
+296Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaà à(IΩ
+∫
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaà à(I
+ev19domain.Event"__id*
+
+%77domain.EventÉ
+Ä
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaâ1 â(C
+%79java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+295*®
+175Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaå å(:¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaå å(:
+q7domain.Question"__id*
+
+%222domain.QuestionÕ 
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaç ç(A
+%223domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev18domain.Event*(&
+$Zein jokalari egingo du lehen falta?*22 addQuestion(Ljava/lang/String;F)*
+174*ı
+297Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaà à(H≠™
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaà à(
+%77domain.Event"domain.EventØ
+¨
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaà à(H
+%78"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%77domain.Event*2*
+Real Sociedad-Levante*
+
+%76java.util.Date*
+296*°
+176Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaã ã(A¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaã ã(A
+q6domain.Question"__id*
+
+%221domain.Question∆√
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaå å(:
+%222domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev18domain.Event*!
+Zeinek irabaziko du partidua?*22 addQuestion(Ljava/lang/String;F)*
+175*Ÿ
+298Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaá á(BΩ
+∫
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaá á(B
+ev18domain.Event"__id*
+
+%74domain.EventÉ
+Ä
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaà5 à(G
+%76java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+297*®
+177Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaä ä(:¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaä ä(:
+q5domain.Question"__id*
+
+%220domain.QuestionÕ 
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaã ã(A
+%221domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev17domain.Event*(&
+$Golak sartuko dira lehenengo zatian?*22 addQuestion(Ljava/lang/String;F)*
+176*Ô
+299Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaá á(A≠™
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaá á(
+%74domain.Event"domain.Event©
+¶
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaá á(A
+%75"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%74domain.Event*2*
+Girona-Legan√©s*
+
+%73java.util.Date*
+298*°
+178Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaâ â(5¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaâ â(5
+q4domain.Question"__id*
+
+%219domain.Question∆√
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaä ä(:
+%220domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev17domain.Event*!
+Zeinek irabaziko du partidua?*22 addQuestion(Ljava/lang/String;F)*
+177*ú
+179Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaà à(:¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaà à(:
+q3domain.Question"__id*
+
+%218domain.Question¡æ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaâ â(5
+%219domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev11domain.Event*
+Zenbat gol sartuko dira?*22 addQuestion(Ljava/lang/String;F)*
+178*°
+180Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaá á(=¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaá á(=
+q2domain.Question"__id*
+
+%217domain.Question∆√
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaà à(:
+%218domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev11domain.Event*!
+Zeinek irabaziko du partidua?*22 addQuestion(Ljava/lang/String;F)*
+179*§
+181Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÜ Ü(9¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÜ Ü(9
+q1domain.Question"__id*
+
+%216domain.Question…∆
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaá á(=
+%217domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev1domain.Event*%#
+!Zeinek sartuko du lehenengo gola?*22 addQuestion(Ljava/lang/String;F)*
+180*€
+182Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÜ Ü(
+≈¬
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÜ Ü(9
+%216domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev1domain.Event*!
+Zeinek irabaziko du partidua?*22 addQuestion(Ljava/lang/String;F)*
+181*Ÿ
+183Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÇ Ç(I√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÇ Ç(I
+q27domain.Question"__id*
+
+%215domain.Question*
+154*∞
+184Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÅ Å(F√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÅ Å(F
+q26domain.Question"__id*
+
+%214domain.Question‘—
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÇ Ç(I
+%215domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev44domain.Event*/-
++How much time this presentation will finsh?*22 addQuestion(Ljava/lang/String;F)*
+183*¨
+185Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÄ Ä(+√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÄ Ä(+
+q25domain.Question"__id*
+
+%213domain.Question–Õ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÅ Å(F
+%214domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev43domain.Event*+)
+'Hown many rounds the fight will finish?*2
+2 addQuestion(Ljava/lang/String;F)*
+184*í
+186Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaˇ ˇ(@√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaˇ ˇ(@
+q24domain.Question"__id*
+
+%212domain.Question∂≥
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÄ Ä(+
+%213domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev43domain.Event*
+Who will win?*22 addQuestion(Ljava/lang/String;F)*
+185*¶
+187Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java˛ ˛(S√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java˛ ˛(S
+q23domain.Question"__id*
+
+%211domain.Question «
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaˇ ˇ(@
+%212domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev42domain.Event*%#
+!Who will stay in the first place?*2
+2 addQuestion(Ljava/lang/String;F)*
+186*π
+188Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java˝ ˝(6√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java˝ ˝(6
+q22domain.Question"__id*
+
+%210domain.Question›⁄
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java˛ ˛(S
+%211domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev42domain.Event*86
+4How much time will the race finish the first winner?*22 addQuestion(Ljava/lang/String;F)*
+187*ú
+189Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¸ ¸(C√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¸ ¸(C
+q21domain.Question"__id*
+
+%209domain.Question¿Ω
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java˝ ˝(6
+%210domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev41domain.Event*
+who will win the match?*2
+2 addQuestion(Ljava/lang/String;F)*
+188*©
+190Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java˙ ˙(7√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java˙ ˙(7
+q20domain.Question"__id*
+
+%208domain.QuestionÕ 
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¸ ¸(C
+%209domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev41domain.Event*(&
+$How much time will the match finish?*22 addQuestion(Ljava/lang/String;F)*
+189*ù
+191Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java˘ ˘(5√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java˘ ˘(5
+q19domain.Question"__id*
+
+%207domain.Question¡æ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java˙ ˙(7
+%208domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev40domain.Event*
+Who will lose the match?*22 addQuestion(Ljava/lang/String;F)*
+190*ú
+192Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¯ ¯(E√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¯ ¯(E
+q18domain.Question"__id*
+
+%206domain.Question¿Ω
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java˘ ˘(5
+%207domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev40domain.Event*
+Who will win the match?*22 addQuestion(Ljava/lang/String;F)*
+191*´
+193Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java˜ ˜(5√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java˜ ˜(5
+q17domain.Question"__id*
+
+%205domain.QuestionœÃ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¯ ¯(E
+%206domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev37domain.Event**(
+&Which player will make the first foul?*22 addQuestion(Ljava/lang/String;F)*
+192*ú
+194Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaˆ ˆ(D√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaˆ ˆ(D
+q16domain.Question"__id*
+
+%204domain.Question¿Ω
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java˜ ˜(5
+%205domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev37domain.Event*
+Who will win the match?*2	2 addQuestion(Ljava/lang/String;F)*
+193*´
+195Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaı ı(5√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaı ı(5
+q15domain.Question"__id*
+
+%203domain.QuestionœÃ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaˆ ˆ(D
+%204domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev35domain.Event**(
+&Will there be goals in the first half?*22 addQuestion(Ljava/lang/String;F)*
+194*ú
+196Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÙ Ù(<√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÙ Ù(<
+q14domain.Question"__id*
+
+%202domain.Question¿Ω
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaı ı(5
+%203domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev35domain.Event*
+Who will win the match?*22 addQuestion(Ljava/lang/String;F)*
+195*£
+197Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÛ Û(5√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÛ Û(5
+q13domain.Question"__id*
+
+%201domain.Question«ƒ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÙ Ù(<
+%202domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev33domain.Event*" 
+How many goals will be scored?*22 addQuestion(Ljava/lang/String;F)*
+196*ú
+198Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÚ Ú(<√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÚ Ú(<
+q12domain.Question"__id*
+
+%200domain.Question¿Ω
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÛ Û(5
+%201domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev33domain.Event*
+Who will win the match?*22 addQuestion(Ljava/lang/String;F)*
+197*£
+199Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÒ Ò(5√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÒ Ò(5
+q11domain.Question"__id*
+
+%199domain.Question«ƒ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÚ Ú(<
+%200domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev26domain.Event*" 
+Who will score the first goal?*22 addQuestion(Ljava/lang/String;F)*
+198*Ÿ
+300Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÜ Ü(CΩ
+∫
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÜ Ü(C
+ev17domain.Event"__id*
+
+%71domain.EventÉ
+Ä
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaá. á(@
+%73java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+299*Ô
+301Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÜ Ü(B≠™
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÜ Ü(
+%71domain.Event"domain.Event©
+¶
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÜ Ü(B
+%72"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%71domain.Event*2*
+Malaga-Valencia*
+
+%70java.util.Date*
+300*Ÿ
+302Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÑ Ñ(EΩ
+∫
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÑ Ñ(E
+ev16domain.Event"__id*
+
+%68domain.EventÉ
+Ä
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÜ/ Ü(A
+%70java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+301*Ú
+303Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÑ Ñ(D≠™
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÑ Ñ(
+%68domain.Event"domain.Event¨
+©
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÑ Ñ(D
+%69"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%68domain.Event*2*
+Las Palmas-Sevilla*
+
+%67java.util.Date*
+302*Ÿ
+304Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÉ É(DΩ
+∫
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÉ É(D
+ev15domain.Event"__id*
+
+%65domain.EventÉ
+Ä
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÑ2 Ñ(C
+%67java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+303*Ú
+305Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÉ É(C≠™
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÉ É(
+%65domain.Event"domain.Event¨
+©
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÉ É(C
+%66"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%65domain.Event*2*
+Espa√±ol-Villareal*
+
+%64java.util.Date*
+304*Ÿ
+306Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÇ Ç(CΩ
+∫
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÇ Ç(C
+ev14domain.Event"__id*
+
+%62domain.EventÉ
+Ä
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÉ1 É(B
+%64java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+305*Ò
+307Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÇ Ç(B≠™
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÇ Ç(
+%62domain.Event"domain.Event´
+®
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÇ Ç(B
+%63"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%62domain.Event*2*
+Alav√©s-Deportivo*
+
+%61java.util.Date*
+306*Ÿ
+308Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÅ Å(?Ω
+∫
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÅ Å(?
+ev13domain.Event"__id*
+
+%59domain.EventÉ
+Ä
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÇ0 Ç(A
+%61java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+307*Ï
+309Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÅ Å(>≠™
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÅ Å(
+%59domain.Event"domain.Event¶
+£
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÅ Å(>
+%60"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%59domain.Event*2*
+Getafe-Celta*
+
+%58java.util.Date*
+308*Ÿ
+310Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÄ Ä(BΩ
+∫
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÄ Ä(B
+ev12domain.Event"__id*
+
+%56domain.EventÉ
+Ä
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÅ, Å(=
+%58java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+309*Ô
+311Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÄ Ä(A≠™
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÄ Ä(
+%56domain.Event"domain.Event©
+¶
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÄ Ä(A
+%57"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%56domain.Event*2*
+Eibar-Barcelona*
+
+%55java.util.Date*
+310*’
+312Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java (Dª
+∏
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java (D
+ev11domain.Event"__id*
+
+%53domain.EventÉ
+Ä
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÄ/ Ä(@
+%55java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+311*Î
+313Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java (C´®
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java (
+%53domain.Event"domain.Event©
+¶
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java (C
+%54"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%53domain.Event*2*
+Atletico-Athletic*
+
+%52java.util.Date*
+312*”
+314Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java} }(Eª
+∏
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java} }(E
+ev10domain.Event"__id*
+
+%50domain.EventÅ
+˛
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java1 (B
+%52java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+313*Î
+315Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java} }(D´®
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java} }(
+%50domain.Event"domain.Event©
+¶
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java} }(D
+%51"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%50domain.Event*2
+*
+Betis-Real Madrid*
+
+%49java.util.Date*
+314*“
+316Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java| |(G∫
+∑
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java| |(G
+ev9domain.Event"__id*
+
+%47domain.EventÅ
+˛
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java}1 }(C
+%49java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+315*Ô
+317Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java| |(F´®
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java| |(
+%47domain.Event"domain.Event≠
+™
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java| |(F
+%48"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%47domain.Event*2	*
+Real Sociedad-Levante*
+
+%46java.util.Date*
+316*“
+318Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java{ {(@∫
+∑
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java{ {(@
+ev8domain.Event"__id*
+
+%44domain.EventÅ
+˛
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java|3 |(E
+%46java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+317*È
+319Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java{ {(?´®
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java{ {(
+%44domain.Event"domain.Eventß
+§
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java{ {(?
+%45"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%44domain.Event*2*
+Girona-Legan√©s*
+
+%43java.util.Date*
+318*“
+320Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaz z(A∫
+∑
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaz z(A
+ev7domain.Event"__id*
+
+%41domain.EventÅ
+˛
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java{, {(>
+%43java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+319*È
+321Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaz z(@´®
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaz z(
+%41domain.Event"domain.Eventß
+§
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaz z(@
+%42"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%41domain.Event*2*
+Malaga-Valencia*
+
+%40java.util.Date*
+320*ú
+200Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÔ Ô(6√
+¿
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÔ Ô(6
+q10domain.Question"__id*
+
+%198domain.Question¿Ω
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÒ Ò(5
+%199domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev26domain.Event*
+Who will win the match?*22 addQuestion(Ljava/lang/String;F)*
+199*“
+322Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javay y(D∫
+∑
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javay y(D
+ev6domain.Event"__id*
+
+%38domain.EventÅ
+˛
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaz- z(?
+%40java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+321*ú
+201Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÓ Ó(4¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÓ Ó(4
+q9domain.Question"__id*
+
+%197domain.Question¡æ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÔ Ô(6
+%198domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev21domain.Event*
+Who will lose the match?*22 addQuestion(Ljava/lang/String;F)*
+200*Ï
+323Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javay y(C´®
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javay y(
+%38domain.Event"domain.Event™
+ß
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javay y(C
+%39"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%38domain.Event*2*
+Las Palmas-Sevilla*
+
+%37java.util.Date*
+322*õ
+202Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÌ Ì(C¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÌ Ì(C
+q8domain.Question"__id*
+
+%196domain.Question¿Ω
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÓ Ó(4
+%197domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev21domain.Event*
+Who will win the match?*22 addQuestion(Ljava/lang/String;F)*
+201*“
+324Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javax x(C∫
+∑
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javax x(C
+ev5domain.Event"__id*
+
+%35domain.EventÅ
+˛
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javay0 y(B
+%37java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+323*™
+203Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÏ Ï(4¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÏ Ï(4
+q7domain.Question"__id*
+
+%195domain.QuestionœÃ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÌ Ì(C
+%196domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev18domain.Event**(
+&Which player will make the first foul?*22 addQuestion(Ljava/lang/String;F)*
+202*Ï
+325Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javax x(B´®
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javax x(
+%35domain.Event"domain.Event™
+ß
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javax x(B
+%36"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%35domain.Event*2*
+Espa√±ol-Villareal*
+
+%34java.util.Date*
+324*õ
+204Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÎ Î(C¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÎ Î(C
+q6domain.Question"__id*
+
+%194domain.Question¿Ω
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÏ Ï(4
+%195domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev18domain.Event*
+Who will win the match?*22 addQuestion(Ljava/lang/String;F)*
+203*“
+326Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaw w(B∫
+∑
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaw w(B
+ev4domain.Event"__id*
+
+%32domain.EventÅ
+˛
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javax/ x(A
+%34java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+325*™
+205Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÍ Í(4¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÍ Í(4
+q5domain.Question"__id*
+
+%193domain.QuestionœÃ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÎ Î(C
+%194domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev17domain.Event**(
+&Will there be goals in the first half?*22 addQuestion(Ljava/lang/String;F)*
+204*Î
+327Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaw w(A´®
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaw w(
+%32domain.Event"domain.Event©
+¶
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaw w(A
+%33"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%32domain.Event*2*
+Alav√©s-Deportivo*
+
+%31java.util.Date*
+326*õ
+206Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÈ È(H¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÈ È(H
+q4domain.Question"__id*
+
+%192domain.Question¿Ω
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÍ Í(4
+%193domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev17domain.Event*
+Who will win the match?*22 addQuestion(Ljava/lang/String;F)*
+205*“
+328Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javav v(>∫
+∑
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javav v(>
+ev3domain.Event"__id*
+
+%29domain.EventÅ
+˛
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaw. w(@
+%31java.util.Date"2dataAccess.DataAccess#newDate(III)Ljava/util/Date;*
+dataAccess.DataAccess*2„*2*2*
+327*Ø
+207Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaË Ë(4¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaË Ë(4
+q3domain.Question"__id*
+
+%191domain.Question‘—
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÈ È(H
+%192domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev11domain.Event*/-
++How many goals will be scored in the match?*22 addQuestion(Ljava/lang/String;F)*
+206*Ê
+329Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javav v(=´®
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javav v(
+%29domain.Event"domain.Event§
+°
+Ç
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javav v(=
+%30"Kdomain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;)V*
+
+%29domain.Event*2*
+Getafe-Celta*
+
+%28java.util.Date*
+328*õ
+208Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÁ Á(1¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÁ Á(1
+q2domain.Question"__id*
+
+%190domain.Question¿Ω
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaË Ë(4
+%191domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev11domain.Event*
+Who will win the match?*22 addQuestion(Ljava/lang/String;F)*
+207*ò
+209Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÊ Ê(3¬
+ø
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÊ Ê(3
+q1domain.Question"__id*
+
+%189domain.QuestionΩ∫
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÁ Á(1
+%190domain.Question">domain.Event#addQuestion(Ljava/lang/String;F)Ldomain/Question;*
+
+ev1domain.Event*
+Who will score first?*22 addQuestion(Ljava/lang/String;F)*
+208B
+dataAccess.DataAccess

@@ -1,0 +1,47 @@
+
+.domain.Question#removeResult(Ldomain/Result;)Z~
+rC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Question.java¢ ¢("3*‰
+2~
+rC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Question.java§ §(
+√
+¿
+~
+rC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Question.java§ §(
+
+%2java.util.Vector"__id* *
+domain.Question"	
+resultsçä
+~
+rC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Question.java§ §(
+%3boolean",java.util.Vector#remove(Ljava/lang/Object;)Z*
+
+%2java.util.Vector*
+
+redomain.Result2remove(Ljava/lang/Object;)"à
+~
+rC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Question.java• •(
+""*Â
+3~
+rC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Question.java£ £(√
+¿
+~
+rC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Question.java£ £(
+%0java.util.Vector"__id* *
+domain.Question"	
+resultsëé
+~
+rC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Question.java£ £(
+%1boolean".java.util.Vector#contains(Ljava/lang/Object;)Z*
+
+%0java.util.Vector*
+
+redomain.Result2contains(Ljava/lang/Object;)*
+2
+1*é
+1~
+rC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Question.javaß	 ß("à
+~
+rC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Question.javaß ß(
+"":
+redomain.ResultB
+domain.Question

@@ -1,0 +1,55 @@
+
+5domain.Question#DoesResultExists(Ljava/lang/String;)Z~
+rC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Question.javaö ö( "5*˚
+2~
+rC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Question.javaõ õ(•
+¢
+~
+rC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Question.javaõ õ(
+rdomain.Result"__id*
+""≈
+¬
+~
+rC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Question.javaõ õ(
+rdomain.Result"
+__arrayGet*
+
+%0java.util.Vector*
+""*
+4
+1*é
+3~
+rC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Question.javaù ù("à
+~
+rC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Question.javaù ù(
+""*í
+4~
+rC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Question.javaú ú(ÎË
+~
+rC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Question.javaú ú(
+%1java.lang.String"+domain.Result#getResult()Ljava/lang/String;*
+
+rdomain.Result2getResult()ñì
+~
+rC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Question.javaú ú(&	
+%2int"/java.lang.String#compareTo(Ljava/lang/String;)I*
+
+%1java.lang.String*
+
+resultjava.lang.String2compareTo(Ljava/lang/String;)*
+2
+3*˘
+5~
+rC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Question.javaõ õ(ÓÎ
+~
+rC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Question.javaõ õ(!
+%0java.util.Vector".domain.Question#getResults()Ljava/util/Vector;*
+domain.Question2getResults()*
+2*é
+1~
+rC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Question.javaü	 ü("à
+~
+rC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Question.javaü ü(
+"":
+resultjava.lang.StringB
+domain.Question

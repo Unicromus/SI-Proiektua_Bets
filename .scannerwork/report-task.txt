@@ -1,0 +1,7 @@
+organization=unicromus
+projectKey=SI-Proiektua_Bets
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.12128
+dashboardUrl=https://sonarcloud.io/dashboard?id=SI-Proiektua_Bets
+ceTaskId=AXSoWpF_6PBu7gNl18F0
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXSoWpF_6PBu7gNl18F0

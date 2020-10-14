@@ -1,0 +1,38 @@
+
+3domain.ResultContainer#toString()Ljava/lang/String;ƒ
+yC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/ResultContainer.java ("1*û
+1ƒ
+yC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/ResultContainer.java	 (Ì
+É
+ƒ
+yC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/ResultContainer.java	 (
+%0domain.Result"__id*&*$
+domain.ResultContainer"
+resultÉ
+Æ
+ƒ
+yC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/ResultContainer.java	 (
+%1java.lang.String"__concat*
+
+%0domain.Result*
+/Ð
+Í
+ƒ
+yC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/ResultContainer.java (
+%2domain.Question"__id*(*&
+domain.ResultContainer"
+
+questionÞ
+Û
+ƒ
+yC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/ResultContainer.java	 (
+%3java.lang.String"__concat*
+
+%1java.lang.String*
+
+%2domain.Question" 
+ƒ
+yC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/ResultContainer.java (
+
+%3java.lang.StringB
+domain.ResultContainer

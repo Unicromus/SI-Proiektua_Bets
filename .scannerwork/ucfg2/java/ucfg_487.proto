@@ -1,0 +1,327 @@
+
+(domain.User#toString()Ljava/lang/String;z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaä ä("1*¸H
+1z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 ã(¬
+ø
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 ã(%
+%0java.lang.String"__concat*
+User [UserID=*
+
+, izena=π
+∂
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã( ã(-
+%1java.lang.String"__id**
+domain.User"
+izena’
+“
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 ã(-
+%2java.lang.String"__concat*
+
+%0java.lang.String*
+
+%1java.lang.StringÃ
+…
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 ã(=
+%3java.lang.String"__concat*
+
+%2java.lang.String*
+, abizena1=º
+π
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã@ ã(H
+%4java.lang.String"__id**
+domain.User"
+
+abizena1’
+“
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 ã(H
+%5java.lang.String"__concat*
+
+%3java.lang.String*
+
+%4java.lang.StringÃ
+…
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 ã(X
+%6java.lang.String"__concat*
+
+%5java.lang.String*
+, abizena2=º
+π
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã[ ã(c
+%7java.lang.String"__id**
+domain.User"
+
+abizena2’
+“
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 ã(c
+%8java.lang.String"__concat*
+
+%6java.lang.String*
+
+%7java.lang.StringÕ
+ 
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 å(
+%9java.lang.String"__concat*
+
+%8java.lang.String*
+, erabizena=æ
+ª
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaå å( 
+%10java.lang.String"__id**
+domain.User"
+	erabizena◊
+‘
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 å( 
+%11java.lang.String"__concat*
+
+%9java.lang.String*
+
+%10java.lang.Stringœ
+Ã
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 å(1
+%12java.lang.String"__concat*
+
+%11java.lang.String*
+, pasahitza=æ
+ª
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaå4 å(=
+%13java.lang.String"__id**
+domain.User"
+	pasahitzaÿ
+’
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 å(=
+%14java.lang.String"__concat*
+
+%12java.lang.String*
+
+%13java.lang.String…
+∆
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 å(H
+%15java.lang.String"__concat*
+
+%14java.lang.String*
+
+, NAN=∏
+µ
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaåK å(N
+%16java.lang.String"__id**
+domain.User"
+NANÿ
+’
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 å(N
+%17java.lang.String"__concat*
+
+%15java.lang.String*
+
+%16java.lang.String—
+Œ
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 å(a
+%18java.lang.String"__concat*
+
+%17java.lang.String*
+, jaiotzedata=¿
+Ω
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaç ç(
+%19java.lang.String"__id* *
+domain.User"
+jaiotzedataÿ
+’
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 ç(
+%20java.lang.String"__concat*
+
+%18java.lang.String*
+
+%19java.lang.StringÀ
+»
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 ç(
+%21java.lang.String"__concat*
+
+%20java.lang.String*
+
+, email=∫
+∑
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaç! ç(&
+%22java.lang.String"__id**
+domain.User"
+emailÿ
+’
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 ç(&
+%23java.lang.String"__concat*
+
+%21java.lang.String*
+
+%22java.lang.String—
+Œ
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 ç(9
+%24java.lang.String"__concat*
+
+%23java.lang.String*
+, TlfZenbakia=¿
+Ω
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaç< ç(G
+%25java.lang.String"__id* *
+domain.User"
+TlfZenbakiaÿ
+’
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 ç(G
+%26java.lang.String"__concat*
+
+%24java.lang.String*
+
+%25java.lang.String–
+Õ
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 ç(Y
+%27java.lang.String"__concat*
+
+%26java.lang.String*
+, herrialdea=ø
+º
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaç\ ç(f
+%28java.lang.String"__id**
+domain.User"
+
+herrialdeaÿ
+’
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 ç(f
+%29java.lang.String"__concat*
+
+%27java.lang.String*
+
+%28java.lang.String–
+Õ
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 é(
+%30java.lang.String"__concat*
+
+%29java.lang.String*
+, probintzia=ø
+º
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaé é("
+%31java.lang.String"__id**
+domain.User"
+
+probintziaÿ
+’
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 é("
+%32java.lang.String"__concat*
+
+%30java.lang.String*
+
+%31java.lang.StringÃ
+…
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 é(0
+%33java.lang.String"__concat*
+
+%32java.lang.String*
+	, herria=ª
+∏
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaé3 é(9
+%34java.lang.String"__id**
+domain.User"
+herriaÿ
+’
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 é(9
+%35java.lang.String"__concat*
+
+%33java.lang.String*
+
+%34java.lang.String–
+Õ
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 é(K
+%36java.lang.String"__concat*
+
+%35java.lang.String*
+, postakodea=ø
+º
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaéN é(X
+%37java.lang.String"__id**
+domain.User"
+
+postakodeaÿ
+’
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 é(X
+%38java.lang.String"__concat*
+
+%36java.lang.String*
+
+%37java.lang.StringŒ
+À
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 é(h
+%39java.lang.String"__concat*
+
+%38java.lang.String*
+, helbidea=Ω
+∫
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaè è(
+%40java.lang.String"__id**
+domain.User"
+
+helbideaÿ
+’
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 è(
+%41java.lang.String"__concat*
+
+%39java.lang.String*
+
+%40java.lang.StringÀ
+»
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 è(
+%42java.lang.String"__concat*
+
+%41java.lang.String*
+
+, kalea=ƒ
+¡
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã	 è(!
+%43java.lang.String"__concat*
+
+%42java.lang.String*
+]"ó
+z
+nC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/User.javaã è("
+
+%43java.lang.StringB
+domain.User

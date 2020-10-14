@@ -1,0 +1,37 @@
+
+)domain.Event#toString()Ljava/lang/String;y
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Event.javaF F("1*·
+1y
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Event.javaG	 G(À
+½
+y
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Event.javaG	 G(
+%0java.lang.Integer"__id*!*
+domain.Event"
+eventNumberÂ
+¿
+y
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Event.javaG	 G(
+%1java.lang.String"__concat*
+
+%0java.lang.Integer*
+;¿
+¼
+y
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Event.javaG G($
+%2java.lang.String"__id*!*
+domain.Event"
+descriptionÔ
+Ñ
+y
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Event.javaG	 G($
+%3java.lang.String"__concat*
+
+%1java.lang.String*
+
+%2java.lang.String"•
+y
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Event.javaG G(%
+
+%3java.lang.StringB
+domain.Event

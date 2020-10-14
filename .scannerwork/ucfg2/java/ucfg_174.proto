@@ -1,0 +1,28 @@
+
+JdataAccess.DataAccess#getMugimenduak(Ljava/lang/String;)Ljava/util/Vector;„
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaã ã()"1*Ô
+1„
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaä ä(%ÖÓ
+„
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaä ä(,
+%0domain.Erabiltzailea"PdataAccess.DataAccess#getErabiltzailea(Ljava/lang/String;)Ldomain/Erabiltzailea;*
+dataAccess.DataAccess*
+
+izenajava.lang.String2$getErabiltzailea(Ljava/lang/String;)Ê
+Ç
+„
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaä ä(-
+erdomain.Erabiltzailea"__id*
+
+%0domain.Erabiltzaileaýú
+„
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaå	 å(
+%1java.util.Vector"0domain.Erabiltzailea#getMugi()Ljava/util/Vector;*
+
+erdomain.Erabiltzailea2	getMugi()"¡
+„
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaå å(
+
+%1java.util.Vector:
+izenajava.lang.StringB
+dataAccess.DataAccess

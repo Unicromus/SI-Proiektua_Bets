@@ -1,0 +1,60 @@
+
+0domain.BetContainer#toString()Ljava/lang/String;Ä
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/BetContainer.java ("1*⁄
+1Ä
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/BetContainer.java	 (¿
+Ω
+Ä
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/BetContainer.java	 (
+%0
+domain.Bet"__id* *
+domain.BetContainer"
+bet√
+¿
+Ä
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/BetContainer.java	 (
+%1java.lang.String"__concat*
+
+%0
+domain.Bet*
+/∆
+√
+Ä
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/BetContainer.java (
+%2domain.Result"__id*#*!
+domain.BetContainer"
+resultŸ
+÷
+Ä
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/BetContainer.java	 (
+%3java.lang.String"__concat*
+
+%1java.lang.String*
+
+%2domain.Result…
+∆
+Ä
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/BetContainer.java	 (
+%4java.lang.String"__concat*
+
+%3java.lang.String*
+/‘
+—
+Ä
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/BetContainer.java ()
+%5domain.Erabiltzailea"__id***(
+domain.BetContainer"
+erabiltzailea‡
+›
+Ä
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/BetContainer.java	 ()
+%6java.lang.String"__concat*
+
+%4java.lang.String*
+
+%5domain.Erabiltzailea"ù
+Ä
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/BetContainer.java (*
+
+%6java.lang.StringB
+domain.BetContainer

@@ -1,0 +1,131 @@
+
+%gui.ApustuAnitzaGUI#isunlogicalbet()ZÇ
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.java” ”("8*å
+2Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.java’ ’(´
+®
+Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.java’ ’(
+ridomain.Result"__id*
+""À
+»
+Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.java’ ’(
+ridomain.Result"
+__arrayGet*
+
+%0java.util.Vector*
+""*
+7
+1*å
+3Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.java÷ ÷(´
+®
+Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.java÷ ÷(
+rjdomain.Result"__id*
+""À
+»
+Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.java÷ ÷(
+rjdomain.Result"
+__arrayGet*
+
+%1java.util.Vector*
+""*
+2
+6*Ω
+5Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.javaŸ Ÿ(áÑ
+Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.javaŸ Ÿ(*
+%8java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
+
+q1domain.Question2getQuestionNumber()áÑ
+Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.javaŸ4 Ÿ(J
+%9java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
+
+q2domain.Question2getQuestionNumber()ôñ
+Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.javaŸ Ÿ(L
+%10boolean"-java.lang.Integer#equals(Ljava/lang/Object;)Z*
+
+%8java.lang.Integer*
+
+%9java.lang.Integer2equals(Ljava/lang/Object;)*
+3*ÿ
+6Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.java◊ ◊("ˇ
+¸
+Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.java◊ ◊($
+%2businessLogic.BLFacade">gui.ApustuAnitzaGUI#getBusinessLogic()LbusinessLogic/BLFacade;*"
+gui.ApustuAnitzaGUI÷”
+Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.java◊ ◊(;
+%3domain.ResultContainer"RbusinessLogic.BLFacade#getResultContainer(Ldomain/Result;)Ldomain/ResultContainer;*
+
+%2businessLogic.BLFacade*
+
+ridomain.Result2#getResultContainer(Ldomain/Result;)ÖÇ
+Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.java◊ ◊(I
+%4domain.Question"5domain.ResultContainer#getQuestion()Ldomain/Question;*
+
+%3domain.ResultContainer2getQuestion()æ
+ª
+Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.java◊ ◊(J
+q1domain.Question"__id*
+
+%4domain.Questionˇ
+¸
+Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.javaÿ ÿ($
+%5businessLogic.BLFacade">gui.ApustuAnitzaGUI#getBusinessLogic()LbusinessLogic/BLFacade;*"
+gui.ApustuAnitzaGUI÷”
+Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.javaÿ ÿ(;
+%6domain.ResultContainer"RbusinessLogic.BLFacade#getResultContainer(Ldomain/Result;)Ldomain/ResultContainer;*
+
+%5businessLogic.BLFacade*
+
+rjdomain.Result2#getResultContainer(Ldomain/Result;)ÖÇ
+Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.javaÿ ÿ(I
+%7domain.Question"5domain.ResultContainer#getQuestion()Ldomain/Question;*
+
+%6domain.ResultContainer2getQuestion()æ
+ª
+Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.javaÿ ÿ(J
+q2domain.Question"__id*
+
+%7domain.Question*
+3
+5*‹
+7Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.java÷ ÷(Ã
+…
+Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.java÷ ÷(
+%1java.util.Vector"__id*$*"
+gui.ApustuAnitzaGUI"	
+results*
+3*‹
+8Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.java’ ’(Ã
+…
+Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.java’ ’(
+%0java.util.Vector"__id*$*"
+gui.ApustuAnitzaGUI"	
+results*
+2*ò
+1Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.java›	 ›("ç
+Ç
+vC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/ApustuAnitzaGUI.java› ›(
+""B
+gui.ApustuAnitzaGUI

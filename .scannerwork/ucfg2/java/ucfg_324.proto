@@ -1,0 +1,72 @@
+
+VbusinessLogic.BLFacadeImplementation#isRegister(Ljava/lang/String;Ljava/lang/String;)Zí
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java\ \("startingBlock*˚
+startingBlockí
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java\ \(:÷
+”
+í
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java[ [(
+%4"
+__annotate*
+	WebMethod*
+
+izenajava.lang.String…
+∆
+í
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java\" \('
+izenajava.lang.String"__annotation*
+
+%4⁄
+◊
+í
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java[ [(
+%5"
+__annotate*
+	WebMethod*
+
+	pasahitzajava.lang.StringÕ
+ 
+í
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java\0 \(9
+	pasahitzajava.lang.String"__annotation*
+
+%5*
+1*À
+1í
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java] ]('Ã…
+í
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java] ](%
+%0dataAccess.DataAccess"dataAccess.DataAccessﬁ
+€
+í
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java] ]('
+%1"dataAccess.DataAccess#<init>()V*
+
+%0dataAccess.DataAccess·
+ﬁ
+í
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java] ](("
+	dbManagerdataAccess.DataAccess"__id*
+
+%0dataAccess.DataAccessÜÉ
+í
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java^ ^(4
+%2boolean"GdataAccess.DataAccess#isRegister(Ljava/lang/String;Ljava/lang/String;)Z*$
+"
+	dbManagerdataAccess.DataAccess*
+
+izenajava.lang.String*
+
+	pasahitzajava.lang.String20isRegister(Ljava/lang/String;Ljava/lang/String;)Û
+í
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java_ _(
+
+%3void"dataAccess.DataAccess#close()V*$
+"
+	dbManagerdataAccess.DataAccess2close()"ù
+í
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java` `(
+"":
+izenajava.lang.String:
+	pasahitzajava.lang.StringB(&
+$businessLogic.BLFacadeImplementation

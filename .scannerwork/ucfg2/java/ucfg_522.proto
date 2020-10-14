@@ -1,0 +1,45 @@
+
+0domain.Result#removeSuperBet(Ldomain/SuperBet;)Zz
+pC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Result.javaz z("3*÷
+2z
+pC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Result.java| |(ø
+º
+z
+pC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Result.java| |(
+%2java.util.Vector"__id* *
+domain.Result"
+	superBetsãà
+z
+pC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Result.java| |(
+%3boolean",java.util.Vector#remove(Ljava/lang/Object;)Z*
+
+%2java.util.Vector*
+
+sbdomain.SuperBet2remove(Ljava/lang/Object;)"Ñ
+z
+pC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Result.java} }(
+""*€
+3z
+pC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Result.java{ {(ø
+º
+z
+pC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Result.java{ {(
+%0java.util.Vector"__id* *
+domain.Result"
+	superBetsèå
+z
+pC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Result.java{ {(
+%1boolean".java.util.Vector#contains(Ljava/lang/Object;)Z*
+
+%0java.util.Vector*
+
+sbdomain.SuperBet2contains(Ljava/lang/Object;)*
+2
+1*Ü
+1z
+pC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Result.java	 ("Ñ
+z
+pC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/Result.java (
+"":
+sbdomain.SuperBetB
+domain.Result

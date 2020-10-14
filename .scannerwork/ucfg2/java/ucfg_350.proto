@@ -1,0 +1,54 @@
+
+JbusinessLogic.BLFacadeImplementation#getErabiltzaileak()Ljava/util/Vector;”
+‡C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaö ö(/"1*Ø
+1”
+‡C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java÷ ÷(Ã
+À
+”
+‡C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java÷ ÷(
+%0java.io.PrintStream"__id*
+""¯¬
+”
+‡C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java÷ ÷(/
+
+%1void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%0java.io.PrintStream*
+>> DataAccess: getUsers2println(Ljava/lang/String;)ÎË
+”
+‡C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaø ø('
+%2dataAccess.DataAccess"dataAccess.DataAccessà
+Ý
+”
+‡C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaø ø()
+%3"dataAccess.DataAccess#<init>()V*
+
+%2dataAccess.DataAccessã
+à
+”
+‡C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaø ø(*"
+	dbManagerdataAccess.DataAccess"__id*
+
+%2dataAccess.DataAccessª§
+”
+‡C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaù ù(9
+%4java.util.Vector";dataAccess.DataAccess#getErabiltzaileak()Ljava/util/Vector;*$
+"
+	dbManagerdataAccess.DataAccess2getErabiltzaileak()Ñ
+Î
+”
+‡C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaù ù(:
+ujava.util.Vector"__id*
+
+%4java.util.Vectorõò
+”
+‡C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaú ú(
+
+%5void"dataAccess.DataAccess#close()V*$
+"
+	dbManagerdataAccess.DataAccess2close()"°
+”
+‡C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaû û(
+
+ujava.util.VectorB(&
+$businessLogic.BLFacadeImplementation

@@ -1,0 +1,39 @@
+
+WdataAccess.DataAccess#getSuperBetContainer(Ldomain/SuperBet;)Ldomain/SuperBetContainer;Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaû û(."1*¯
+
+1Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaü ü(ÍÁ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaü) ü(@	
+%0int"$domain.SuperBet#getSuperBetNumber()I*
+
+betdomain.SuperBet2getSuperBetNumber()∞
+≠
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaü ü(B
+sbedomain.SuperBet"__id*
+""ƒ¡
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java† †(/
+%1domain.SuperBetContainer"domain.SuperBetContainerÅ
+˛
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java† †(4
+%2"3domain.SuperBetContainer#<init>(Ldomain/SuperBet;)V* 
+
+%1domain.SuperBetContainer*
+
+sbedomain.SuperBet”
+–
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java† †(5
+SBCdomain.SuperBetContainer"__id* 
+
+%1domain.SuperBetContainer"™
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java° °(!
+
+SBCdomain.SuperBetContainer:
+betdomain.SuperBetB
+dataAccess.DataAccess

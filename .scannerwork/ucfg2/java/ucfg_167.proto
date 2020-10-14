@@ -1,0 +1,43 @@
+
+HdataAccess.DataAccess#getBetContainer(Ldomain/Bet;)Ldomain/BetContainer;„
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java˜ ˜($"1*®
+
+1„
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java™ ™(ÖÓ
+„
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java™ ™(0	
+%0int"domain.Bet#getBetNumber()I*
+
+bet
+domain.Bet2getBetNumber()ª
+§
+„
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java™ ™(2
+be
+domain.Bet"__id*
+""º·
+„
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaš š($
+%1domain.BetContainer"domain.BetContainerì
+é
+„
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaš š((
+%2")domain.BetContainer#<init>(Ldomain/Bet;)V*
+
+%1domain.BetContainer*
+
+be
+domain.BetÈ
+Å
+„
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaš š()
+BCdomain.BetContainer"__id*
+
+%1domain.BetContainer"¤
+„
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java› ›(
+
+BCdomain.BetContainer:
+bet
+domain.BetB
+dataAccess.DataAccess

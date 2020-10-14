@@ -1,0 +1,146 @@
+
+-gui.AdminGUI#getBoton2()Ljavax/swing/JButton;{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaÆ Æ("3*Ü#
+2{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaÈ È(%°­
+{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaÈ È(#
+%1javax.swing.JButton"javax.swing.JButtonÂ
+¿
+{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaÈ È(%
+%2"javax.swing.JButton#<init>()V*
+
+%1javax.swing.JButtonË
+È
+{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaÈ È(%&
+gui.AdminGUI"
+jButtonCreateQuery"__id*
+
+%1javax.swing.JButtonË
+È
+{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaÉ É(
+%3javax.swing.JButton"__id*(*&
+gui.AdminGUI"
+jButtonCreateQuery¦
+£
+{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaÉ' É(-
+%4java.lang.String"__id*
+""™
+–
+{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaÉ/ É(9	
+%5int"__id*
+""¤¡
+{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaÉ" É(&
+%6java.awt.Font"java.awt.Font÷
+ô
+{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaÉ É(>
+%7"+java.awt.Font#<init>(Ljava/lang/String;II)V*
+
+%6java.awt.Font*
+
+%4java.lang.String*
+	
+%5int*2Œ‰
+{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaÉ É(?
+
+%8void"0javax.swing.JComponent#setFont(Ljava/awt/Font;)V*
+
+%3javax.swing.JButton*
+
+%6java.awt.Font2setFont(Ljava/awt/Font;)Ë
+È
+{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaÊ Ê(
+%9javax.swing.JButton"__id*(*&
+gui.AdminGUI"
+jButtonCreateQueryú÷
+{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaÊ Ê(1
+%10void"#java.awt.Component#setBounds(IIII)V*
+
+%9javax.swing.JButton*2*2À*2ò*2<2setBounds(IIII)Ì
+É
+{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaË Ë(
+%11javax.swing.JButton"__id*(*&
+gui.AdminGUI"
+jButtonCreateQuery§
+¤
+{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaË7 Ë(?
+%12java.lang.String"__id*
+""¬
+©
+{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaË Ë(@
+%13java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+
+%12java.lang.String¶³
+{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaË Ë(Y
+%14java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;*!
+
+%13java.util.ResourceBundle*
+CreateQuery2getString(Ljava/lang/String;)œ™
+{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaË Ë(Z
+%15void"7javax.swing.AbstractButton#setText(Ljava/lang/String;)V*
+
+%11javax.swing.JButton*
+
+%14java.lang.String2setText(Ljava/lang/String;)Ì
+É
+{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaÌ Ì(
+%16javax.swing.JButton"__id*(*&
+gui.AdminGUI"
+jButtonCreateQuery§¤
+{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaÌ, Ì(I
+%17gui.AdminGUI$8"gui.AdminGUI$8¼
+¹
+{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaÌ( Ó(
+%18"java.lang.Object#<init>()V*
+
+%17gui.AdminGUI$8ÈÅ
+{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaÌ Ó(
+%19void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*
+
+%16javax.swing.JButton*
+
+%17gui.AdminGUI$822addActionListener(Ljava/awt/event/ActionListener;)*
+1*Ö
+3{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaÇ Ç(Ë
+È
+{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaÇ Ç(
+%0javax.swing.JButton"__id*(*&
+gui.AdminGUI"
+jButtonCreateQuery*
+2
+1*í
+1{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaÕ	 Õ(Ì
+É
+{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaÕ	 Õ(
+%20javax.swing.JButton"__id*(*&
+gui.AdminGUI"
+jButtonCreateQuery"›
+{
+oC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/gui/AdminGUI.javaÕ Õ(
+
+%20javax.swing.JButtonB
+gui.AdminGUI

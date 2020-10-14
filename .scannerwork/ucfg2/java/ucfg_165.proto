@@ -1,0 +1,38 @@
+
+WdataAccess.DataAccess#getQuestionContainer(Ldomain/Question;)Ldomain/QuestionContainer;Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaå å(."1*ô
+1Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaç ç(èå
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaç( ç(D
+%0java.lang.Integer"6domain.Question#getQuestionNumber()Ljava/lang/Integer;*
+
+questiondomain.Question2getQuestionNumber()Ø
+¨
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaç ç(F
+qudomain.Question"__id*
+""ƒ¡
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaé é(.
+%1domain.QuestionContainer"domain.QuestionContainerÄ
+˝
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaé é(2
+%2"3domain.QuestionContainer#<init>(Ldomain/Question;)V* 
+
+%1domain.QuestionContainer*
+
+qudomain.Question“
+œ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaé é(3
+QCdomain.QuestionContainer"__id* 
+
+%1domain.QuestionContainer"©
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaè è( 
+
+QCdomain.QuestionContainer:
+questiondomain.QuestionB
+dataAccess.DataAccess

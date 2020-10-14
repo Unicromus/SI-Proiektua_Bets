@@ -1,0 +1,18 @@
+
+Fdomain.IntegerAdapter#unmarshal(Ljava/lang/String;)Ljava/lang/Integer;‚
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/IntegerAdapter.java ("1*”
+1‚
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/IntegerAdapter.java	 (ô
+ñ
+‚
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/IntegerAdapter.java	 (	
+%0int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+sjava.lang.String"’
+‚
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/domain/IntegerAdapter.java (
+	
+%0int:
+sjava.lang.StringB
+domain.IntegerAdapter

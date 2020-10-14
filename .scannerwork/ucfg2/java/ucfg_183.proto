@@ -1,0 +1,66 @@
+
+2dataAccess.DataAccess#deleteEvent(Ldomain/Event;)ZÑ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÀ À("14*ã
+13Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaœ  œ("˜Ù
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaœ  œ(1
+%1java.util.Vector"-domain.Event#getQuestions()Ljava/util/Vector;*
+
+evdomain.Event2getQuestions()*
+12*ø
+14Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÃ Ã(¸˘
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÕ! Õ(3
+%0java.lang.Integer"0domain.Event#getEventNumber()Ljava/lang/Integer;*
+
+edomain.Event2getEventNumber()¨
+©
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaÕ Õ(5
+evdomain.Event"__id*
+""*
+13*û
+9Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java– –(Ø
+¨
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java– –(
+qudomain.Question"__id*
+""÷
+”
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java– –(
+qudomain.Question"
+__arrayGet*
+
+	questionsjava.util.Vector*
+""*
+10
+1*Ω
+10Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java— —(™ß
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java— —(
+%2boolean"8dataAccess.DataAccess#deleteQuestion(Ldomain/Question;)Z*
+dataAccess.DataAccess*
+
+qudomain.Question2!deleteQuestion(Ldomain/Question;)*
+9*‹
+12Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaœ œ(2…
+∆
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaœ œ(2
+	questionsjava.util.Vector"__id*
+
+%1java.util.Vector*
+9*ú
+1Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java⁄	 ⁄("è
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java⁄ ⁄(
+"":
+edomain.EventB
+dataAccess.DataAccess

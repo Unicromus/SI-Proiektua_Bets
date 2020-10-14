@@ -1,0 +1,62 @@
+
+SbusinessLogic.BLFacadeImplementation#getQuestions(Ldomain/Event;)Ljava/util/Vector;î
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaû û(%"startingBlock*Ã
+startingBlockî
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaû% û(2‘
+—
+î
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaù ù(
+%4"
+__annotate*
+	WebMethod*
+
+eventdomain.Event«
+ƒ
+î
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaû, û(1
+eventdomain.Event"__annotation*
+
+%4*
+1*ç
+1î
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaü ü('ŒÀ
+î
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaü ü(%
+%0dataAccess.DataAccess"dataAccess.DataAccess‡
+›
+î
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaü ü('
+%1"dataAccess.DataAccess#<init>()V*
+
+%0dataAccess.DataAccess„
+‡
+î
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaü ü(("
+	dbManagerdataAccess.DataAccess"__id*
+
+%0dataAccess.DataAccess’“
+î
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java† †(4
+%2java.util.Vector"DdataAccess.DataAccess#getQuestions(Ldomain/Event;)Ljava/util/Vector;*$
+"
+	dbManagerdataAccess.DataAccess*
+
+eventdomain.Event2getQuestions(Ldomain/Event;)“
+œ
+î
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java† †(5
+qujava.util.Vector"__id*
+
+%2java.util.VectorıÚ
+î
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java° °(
+
+%3void"dataAccess.DataAccess#close()V*$
+"
+	dbManagerdataAccess.DataAccess2close()"±
+î
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java¢ ¢(
+
+qujava.util.Vector:
+eventdomain.EventB(&
+$businessLogic.BLFacadeImplementation

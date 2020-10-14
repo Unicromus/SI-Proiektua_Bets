@@ -1,0 +1,40 @@
+
+]dataAccess.DataAccess#getMugimenduaContainer(Ldomain/Mugimendua;)Ldomain/MugimenduaContainer;Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java§ §(2"1*´
+1Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java• •(çä
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java•, •(F
+%0java.lang.Integer"4domain.Mugimendua#getMugiNumber()Ljava/lang/Integer;*!
+
+
+mugimenduadomain.Mugimendua2getMugiNumber()±
+Æ
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java• •(H
+mudomain.Mugimendua"__id*
+""»≈
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¶ ¶(2 
+%1domain.MugimenduaContainer"domain.MugimenduaContainerà
+Ö
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¶ ¶(6
+%2"7domain.MugimenduaContainer#<init>(Ldomain/Mugimendua;)V*"
+ 
+%1domain.MugimenduaContainer*
+
+mudomain.Mugimendua÷
+”
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.java¶ ¶(7 
+MCdomain.MugimenduaContainer"__id*"
+ 
+%1domain.MugimenduaContainer"´
+Ñ
+xC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/dataAccess/DataAccess.javaß ß("
+ 
+MCdomain.MugimenduaContainer:
+
+mugimenduadomain.MugimenduaB
+dataAccess.DataAccess

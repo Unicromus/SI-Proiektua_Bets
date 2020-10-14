@@ -1,0 +1,55 @@
+
+AbusinessLogic.BLFacadeImplementation#deleteEvent(Ldomain/Event;)Zî
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java˝ ˝("startingBlock*ƒ
+startingBlockî
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java˝ ˝($–
+Õ
+î
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java¸ ¸(
+%4"
+__annotate*
+	WebMethod*
+
+edomain.Event√
+¿
+î
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java˝" ˝(#
+edomain.Event"__annotation*
+
+%4*
+5*≠
+4î
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaÄ Ä(#€
+ÿ
+î
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaÄ Ä(#
+ddataAccess.DataAccess"__id*
+
+%0dataAccess.DataAccess≠™
+î
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaÅ Å(
+%2boolean"2dataAccess.DataAccess#deleteEvent(Ldomain/Event;)Z*
+
+ddataAccess.DataAccess*
+
+edomain.Event2deleteEvent(Ldomain/Event;)*
+1*”
+5î
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaÄ Ä("ŒÀ
+î
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaÄ Ä( 
+%0dataAccess.DataAccess"dataAccess.DataAccess‡
+›
+î
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaÄ Ä("
+%1"dataAccess.DataAccess#<init>()V*
+
+%0dataAccess.DataAccess*
+4*º
+1î
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaá	 á("ü
+î
+áC:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaá á(
+"":
+edomain.EventB(&
+$businessLogic.BLFacadeImplementation

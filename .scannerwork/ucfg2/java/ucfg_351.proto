@@ -1,0 +1,56 @@
+
+MbusinessLogic.BLFacadeImplementation#deleteErabiltzailea(Ljava/lang/String;)Z”
+‡C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaÿ ÿ(#"startingBlock*Ü
+startingBlock”
+‡C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaÿ# ÿ(5Ü
+Ù
+”
+‡C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaþ þ(
+%4"
+__annotate*
+	WebMethod*
+
+	erabizenajava.lang.StringÏ
+Ì
+”
+‡C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaÿ+ ÿ(4
+	erabizenajava.lang.String"__annotation*
+
+%4*
+5*Ñ
+4”
+‡C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java‚ ‚(#Û
+Ø
+”
+‡C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java‚ ‚(#
+ddataAccess.DataAccess"__id*
+
+%0dataAccess.DataAccessÑÎ
+”
+‡C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.javaƒ ƒ(#
+%2boolean">dataAccess.DataAccess#deleteErabiltzailea(Ljava/lang/String;)Z*
+
+ddataAccess.DataAccess*
+
+	erabizenajava.lang.String2'deleteErabiltzailea(Ljava/lang/String;)*
+1*Ó
+5”
+‡C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java‚ ‚("ÎË
+”
+‡C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java‚ ‚( 
+%0dataAccess.DataAccess"dataAccess.DataAccessà
+Ý
+”
+‡C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java‚ ‚("
+%1"dataAccess.DataAccess#<init>()V*
+
+%0dataAccess.DataAccess*
+4*¼
+1”
+‡C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java‰	 ‰(
+"Ÿ
+”
+‡C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/src/businessLogic/BLFacadeImplementation.java‰ ‰(
+"":
+	erabizenajava.lang.StringB(&
+$businessLogic.BLFacadeImplementation
