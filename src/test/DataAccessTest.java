@@ -14,93 +14,185 @@ import configuration.ConfigXML;
 import dataAccess.DataAccess;
 import domain.Event;
 import domain.Question;
+import domain.Result;
 import exceptions.EventFinished;
 import exceptions.QuestionAlreadyExist;
+import exceptions.ResultAlreadyExist;
 
 public class DataAccessTest {
 
-	 static DataAccess sut=new DataAccess(ConfigXML.getInstance().getDataBaseOpenMode().equals("initialize"));;
-	 static BLFacadeImplementation testBL=new BLFacadeImplementation();;
+	static DataAccess sut = new DataAccess(ConfigXML.getInstance().getDataBaseOpenMode().equals("initialize"));;
+	static BLFacadeImplementation testBL = new BLFacadeImplementation();;
 
 	private Event ev;
-	
+
 	@Test
-	//sut.createQuestion:  The event has one question with a queryText. 
-	public void test1() {
+	// ExceptionParametroDesegokiak()
+	public void test1() throws ParseException {
 		try {
-			
 			//define paramaters
-			String queryText="proba galdera";
-			Float betMinimum=new Float(2);
-			
+			String queryText = "proba galdera";
+			float betMinimum = 2.0f;
+			String erantzuna = null;		// "erantzuna"
+
 			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-			Date oneDate=null;;
-			try {
-				oneDate = sdf.parse("05/10/2022");
-			} catch (ParseException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}	
-			
+			Date oneDate = sdf.parse("05/10/2022");
+
 			//configure the state of the system (create object in the dabatase)
-			ev = testBL.addEvent(queryText,oneDate );
-			sut.createQuestion(ev, queryText, betMinimum);
-			
-			
+			ev = testBL.addEvent(queryText, oneDate );
+			Question question = sut.createQuestion(ev, queryText, betMinimum);
+
+
 			//invoke System Under Test (sut)  
-			sut.createQuestion(ev, queryText, betMinimum);
-			
-			
+			sut.createFee(question, erantzuna, betMinimum);
+
+
 			//if the program continues fail
-		    fail();
-		   } catch (QuestionAlreadyExist e) {
+			fail();
+		} catch (Exception e) {
 			// if the program goes to this point OK  
 			assertTrue(true);
-			} finally {
-				  //Remove the created objects in the database (cascade removing)   
-		          boolean b=testBL.deleteEvent(ev);
-		           System.out.println("Finally "+b);          
-		        }
-		   }
+		} finally {
+			//Remove the created objects in the database (cascade removing)   
+			boolean b = testBL.deleteEvent(ev);
+			System.out.println("Finally "+b);          
+		}
+	}
+
+
 	@Test
-	//sut.createQuestion:  The event has NOT one question with a queryText. 
-	public void test2() {
+	// ExceptionFeeNegatiboa()
+	public void test2() throws ParseException {
 		try {
-			
 			//define paramaters
-			String queryText="proba galdera";
-			Float betMinimum=new Float(2);
-			
+			String queryText = "proba galdera";
+			float betMinimum = -2.0f;		// betMinimum > 0 izan behar du
+			String erantzuna = "erantzuna";
+
 			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-			Date oneDate=null;;
-			try {
-				oneDate = sdf.parse("05/10/2022");
-			} catch (ParseException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}	
-			
+			Date oneDate = sdf.parse("05/10/2022");
+
 			//configure the state of the system (create object in the dabatase)
-			ev = testBL.addEvent(queryText,oneDate );			
-			
+			ev = testBL.addEvent(queryText, oneDate );
+			Question question = sut.createQuestion(ev, queryText, betMinimum);
+
+
 			//invoke System Under Test (sut)  
-			Question q=sut.createQuestion(ev, queryText, betMinimum);
-			
-			
-			//verify the results
-			assertTrue(q!=null);
-			assertEquals(q.getQuestion(),queryText);
-			assertEquals(q.getBetMinimum(),betMinimum,0);
-			
-			
-		   } catch (QuestionAlreadyExist e) {
-			// TODO Auto-generated catch block
-			// if the program goes to this point fail  
+			sut.createFee(question, erantzuna, betMinimum);
+
+
+			//if the program continues fail
 			fail();
-			} finally {
-				  //Remove the created objects in the database (cascade removing)   
-		          boolean b=testBL.deleteEvent(ev);
-		           System.out.println("Finally "+b);          
-		        }
-		   }
+		} catch (Exception e) {
+			// if the program goes to this point OK  
+			assertTrue(true);
+		} finally {
+			//Remove the created objects in the database (cascade removing)   
+			boolean b = testBL.deleteEvent(ev);
+			System.out.println("Finally "+b);          
+		}
+	}
+
+
+	@Test
+	// ExceptionQuestionEzDagoDatubasean
+	public void test3() throws ParseException {
+		try {
+			//define paramaters
+			String queryText = "proba galdera";
+			float betMinimum = 2.0f;
+			String erantzuna = "erantzuna";
+
+			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+			Date oneDate = sdf.parse("05/10/2022");
+
+			//configure the state of the system (create object in the dabatase)
+			ev = testBL.addEvent(queryText, oneDate );
+			Question question = new Question();
+
+
+			//invoke System Under Test (sut)  
+			sut.createFee(question, erantzuna, betMinimum);
+
+
+			//if the program continues fail
+			fail();
+		} catch (Exception e) {
+			// if the program goes to this point OK  
+			assertTrue(true);
+		} finally {
+			//Remove the created objects in the database (cascade removing)   
+			boolean b = testBL.deleteEvent(ev);
+			System.out.println("Finally "+b);          
+		}
+	}
+
+
+	@Test
+	// ExceptionResultAlreadyExist()
+	public void test4() throws ParseException {
+		try {
+			//define paramaters
+			String queryText = "proba galdera";
+			float betMinimum = 2.0f;
+			String erantzuna = "erantzuna";
+
+			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+			Date oneDate = sdf.parse("05/10/2022");
+
+			//configure the state of the system (create object in the dabatase)
+			ev = testBL.addEvent(queryText, oneDate );
+			Question question = sut.createQuestion(ev, queryText, betMinimum);
+			sut.createFee(question, erantzuna, betMinimum);
+
+			//invoke System Under Test (sut)  
+			sut.createFee(question, erantzuna, betMinimum);
+
+
+			//if the program continues fail
+			fail();
+		} catch (Exception e) {
+			// if the program goes to this point OK  
+			assertTrue(true);
+		} finally {
+			//Remove the created objects in the database (cascade removing)   
+			boolean b = testBL.deleteEvent(ev);
+			System.out.println("Finally "+b);          
+		}
+	}
+
+
+	@Test
+	// return "erantzuna"
+	public void test5() throws ParseException {
+		try {
+			//define paramaters
+			String queryText = "proba galdera";
+			float betMinimum = 2.0f;
+			String erantzuna = "erantzuna";
+
+			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+			Date oneDate = sdf.parse("05/10/2022");
+
+			//configure the state of the system (create object in the dabatase)
+			ev = testBL.addEvent(queryText, oneDate );
+			Question question = sut.createQuestion(ev, queryText, betMinimum);
+
+			//invoke System Under Test (sut)  
+			Result res = sut.createFee(question, erantzuna, betMinimum);
+
+
+			//verify the results
+			assertEquals(res.getResult(), erantzuna);
+		} catch (Exception e) {
+			// if the program goes to this point fail
+			fail();
+		} finally {
+			//Remove the created objects in the database (cascade removing)   
+			boolean b = testBL.deleteEvent(ev);
+			System.out.println("Finally "+b);          
+		}
+	}
+
+
 }
