@@ -1030,3 +1030,89 @@ New type java.util.Vector<domain.Question>
 [2020-10-19 21:52:54 #28 type.registry] 
 New type java.util.Vector<java.lang.Object>
 
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-10-19 22:02:28 #1 store] 
+Database 'C:\Users\david\git\SI-Proiektua_Bets\resources\bets.temp' is opened by 12368@MSI
+
+[2020-10-19 22:02:28 #2 type.registry] 
+New type domain.UserBerezia
+
+[2020-10-19 22:02:28 #3 type.registry] 
+New type domain.User
+
+[2020-10-19 22:02:28 #4 type.registry] 
+New type domain.Admin
+
+[2020-10-19 22:02:28 #5 type] 
+Type domain.User is not enhanced.
+
+[2020-10-19 22:02:28 #6 type] 
+Type domain.Admin is not enhanced.
+
+[2020-10-19 22:02:28 #7 type.registry] 
+New type domain.Langilea
+
+[2020-10-19 22:02:28 #8 type] 
+Type domain.Langilea is not enhanced.
+
+[2020-10-19 22:02:28 #9 type.registry] 
+New type domain.Erabiltzailea
+
+[2020-10-19 22:02:28 #10 type] 
+Type domain.Erabiltzailea is not enhanced.
+
+[2020-10-19 22:02:28 #11 type.registry] 
+New type domain.SuperBet
+
+[2020-10-19 22:02:28 #12 type.registry] 
+New type java.util.Vector<domain.SuperBet>
+
+[2020-10-19 22:02:28 #13 type.registry] 
+New type domain.Bet
+
+[2020-10-19 22:02:28 #14 type.registry] 
+New type java.util.Vector<domain.Bet>
+
+[2020-10-19 22:02:28 #15 type.registry] 
+New type domain.Mugimendua
+
+[2020-10-19 22:02:28 #16 type.registry] 
+New type java.util.Vector<domain.Mugimendua>
+
+[2020-10-19 22:02:28 #17 type] 
+Type domain.SuperBet is not enhanced.
+
+[2020-10-19 22:02:28 #18 type.registry] 
+New type domain.Result
+
+[2020-10-19 22:02:28 #19 type.registry] 
+New type java.util.Vector<domain.Result>
+
+[2020-10-19 22:02:28 #20 type] 
+Type domain.Bet is not enhanced.
+
+[2020-10-19 22:02:28 #21 type] 
+Type domain.Mugimendua is not enhanced.
+
+[2020-10-19 22:02:28 #22 type] 
+Type domain.Result is not enhanced.
+
+[2020-10-19 22:02:28 #23 type.registry] 
+New type domain.Question
+
+[2020-10-19 22:02:28 #24 type] 
+Type domain.Question is not enhanced.
+
+[2020-10-19 22:02:28 #25 type.registry] 
+New type domain.Event
+
+[2020-10-19 22:02:28 #26 type] 
+Type domain.Event is not enhanced.
+
+[2020-10-19 22:02:28 #27 type.registry] 
+New type java.util.Vector<domain.Question>
+
+[2020-10-19 22:02:28 #28 type.registry] 
+New type java.util.Vector<java.lang.Object>
+
