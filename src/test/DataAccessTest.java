@@ -14,7 +14,6 @@ import configuration.ConfigXML;
 import dataAccess.DataAccess;
 import domain.Event;
 import domain.Question;
-import exceptions.EventFinished;
 import exceptions.QuestionAlreadyExist;
 
 public class DataAccessTest {
