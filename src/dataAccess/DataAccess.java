@@ -935,4 +935,20 @@ public class DataAccess  {
 
 		return calendar.getTime();
 	}
+	
+	public Event addEvent(String desc, Date d) {
+		System.out.println(">> DataAccessTest: addEvent");
+		Event ev=null;
+			db.getTransaction().begin();
+			try {
+			    ev=new Event(desc,d);
+				db.persist(ev);
+				db.getTransaction().commit();
+			}
+			catch (Exception e){
+				e.printStackTrace();
+			}
+			return ev;
+    }
+	
 }

@@ -441,4 +441,11 @@ public class BLFacadeImplementation  implements BLFacade {
 
 	//	----------------------------------------------------
 
+	public Event addEvent(String desc, Date d) {
+		dbManager.open(false);
+		Event o=dbManager.addEvent(desc,d);
+		dbManager.close();
+		return o;
+	}
+	
 }
