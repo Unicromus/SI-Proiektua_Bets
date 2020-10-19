@@ -3,7 +3,8 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="img"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/libs/jcalendar-1.4.jar"/>
-	<classpathentry kind="lib" path="C:/Users/david/Desktop/4.M_UNI_EHU_ Ing-Informatica/1.4_SI2/_Projects/SI-Proiektua_(Bets)/libs/objectdb.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/david/git/SI-Proiektua_Bets/libs/jcalendar-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/david/git/SI-Proiektua_Bets/libs/objectdb.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

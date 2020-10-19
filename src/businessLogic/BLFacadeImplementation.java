@@ -47,7 +47,7 @@ public class BLFacadeImplementation  implements BLFacade {
 		ConfigXML c=ConfigXML.getInstance();
 
 		if (c.getDataBaseOpenMode().equals("initialize")) {
-			DataAccess dbManager=new DataAccess(c.getDataBaseOpenMode().equals("initialize"));
+			dbManager=new DataAccess(c.getDataBaseOpenMode().equals("initialize"));
 			dbManager.initializeDB();
 			dbManager.close();
 		}
