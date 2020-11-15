@@ -10,7 +10,7 @@ import configuration.ConfigXML;
 import domain.Event;
 import factory.FactoryBLFacade;
 
-public class main {
+public class Main {
 
 	public static void main(String[] args) throws MalformedURLException {
 		// Facade objektua lortu lehendabiziko ariketa erabiliz

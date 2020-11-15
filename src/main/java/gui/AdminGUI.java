@@ -87,8 +87,8 @@ public class AdminGUI extends JFrame {
 	 */
 	private void initialize() {
 		this.setSize(887, 725);
-		this.setContentPane(getJContentPane());
 		this.setLocationRelativeTo(null);
+		this.setContentPane(getJContentPane());
 		this.setTitle(ResourceBundle.getBundle(ETIQUETA).getString("MainTitle"));
 	}
 

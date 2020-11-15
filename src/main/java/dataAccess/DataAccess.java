@@ -464,6 +464,10 @@ public class DataAccess {
 			Mikel.setDiruzorroa(5000);
 			superApustuaEgin(Mikel, 112, r);
 			superApustuaEgin(Mikel, 33, re);
+			
+			apustuaEgin(Mikel, 40, r32);
+			apustuaEgin(Mikel, 60, r44);
+			apustuaEgin(Mikel, 80, r45);
 
 			System.out.println("Db initialized");
 		} catch (Exception e) {
@@ -834,8 +838,7 @@ public class DataAccess {
 		SuperBet sb = erabiltzailea.addSuperBets(price, results);
 		sb.addResultsBet();
 		erabiltzailea.setDiruzorroa(hasierakoDirua - price);
-		erabiltzailea.addMugimendua(hasierakoDirua, (price) * (-1), hasierakoDirua - price, "APUSTU-ANITZA",
-				new Date());
+		erabiltzailea.addMugimendua(hasierakoDirua, (price) * (-1), hasierakoDirua - price, "APUSTU-ANITZA", new Date());
 
 		db.persist(erabiltzailea);
 		db.getTransaction().commit();
