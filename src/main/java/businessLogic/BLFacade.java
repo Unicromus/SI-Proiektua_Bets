@@ -27,6 +27,7 @@ import exceptions.QuestionAlreadyExist;
 import exceptions.ResultAlreadyExist;
 import exceptions.SuperBetMinimumRes;
 import exceptions.betMinimum;
+import iterator.ExtendedIterator;
 
 import javax.jws.WebMethod;
 import javax.jws.WebService;
@@ -84,6 +85,8 @@ public interface BLFacade  {
 	 * @return collection of events
 	 */
 	@WebMethod public Vector<Event> getEvents(Date date);
+	
+	@WebMethod public ExtendedIterator<Event> getEventsIterator(Date date);
 
 	@WebMethod public Vector<Question> getQuestions(Event event);
 
@@ -143,6 +146,6 @@ public interface BLFacade  {
 
 	@WebMethod public boolean deleteErabiltzailea(String erab);
 
-	//	----------------------------------------------------
+	// ----------------------------------------------------
 
 }

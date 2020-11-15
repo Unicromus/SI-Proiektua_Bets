@@ -1,5 +1,6 @@
 package dataAccess;
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
@@ -41,71 +42,74 @@ import exceptions.betMinimum;
 /**
  * It implements the data access to the objectDb database
  */
-public class DataAccess  {
-	protected static EntityManager  db;
-	protected static EntityManagerFactory emf;	
+public class DataAccess {
+	protected static EntityManager db;
+	protected static EntityManagerFactory emf;
 
-	ConfigXML c=ConfigXML.getInstance();
+	ConfigXML c = ConfigXML.getInstance();
 
+	public DataAccess(boolean initializeMode) {
 
-	public DataAccess(boolean initializeMode)  {
-
-		System.out.println("Creating DataAccess instance => isDatabaseLocal: "+c.isDatabaseLocal()+" getDatabBaseOpenMode: "+c.getDataBaseOpenMode());
+		System.out.println("Creating DataAccess instance => isDatabaseLocal: " + c.isDatabaseLocal()
+				+ " getDatabBaseOpenMode: " + c.getDataBaseOpenMode());
 
 		open(initializeMode);
 
 	}
 
-	public void open(boolean initializeMode){
+	public void open(boolean initializeMode) {
 
-		System.out.println("Creating DataAccess instance => isDatabaseLocal: "+c.isDatabaseLocal()+" getDatabBaseOpenMode: "+c.getDataBaseOpenMode());
+		System.out.println("Creating DataAccess instance => isDatabaseLocal: " + c.isDatabaseLocal()
+				+ " getDatabBaseOpenMode: " + c.getDataBaseOpenMode());
 
-		String fileName=c.getDbFilename();
+		String fileName = c.getDbFilename();
 		if (initializeMode)
-			fileName=fileName+";drop";
+			fileName = fileName + ";drop";
 
 		if (c.isDatabaseLocal()) {
-			emf = Persistence.createEntityManagerFactory("objectdb:"+fileName);
+			emf = Persistence.createEntityManagerFactory("objectdb:" + fileName);
 			db = emf.createEntityManager();
 		} else {
 			Map<String, String> properties = new HashMap<String, String>();
 			properties.put("javax.persistence.jdbc.user", c.getUser());
 			properties.put("javax.persistence.jdbc.password", c.getPassword());
 
-			emf = Persistence.createEntityManagerFactory("objectdb://"+c.getDatabaseNode()+":"+c.getDatabasePort()+"/"+fileName, properties);
+			emf = Persistence.createEntityManagerFactory(
+					"objectdb://" + c.getDatabaseNode() + ":" + c.getDatabasePort() + "/" + fileName, properties);
 
 			db = emf.createEntityManager();
 		}
 
 	}
 
-	public DataAccess()  {	
+	public DataAccess() {
 		new DataAccess(false);
 	}
 
-
 	/**
-	 * This is the data access method that initializes the database with some events and questions.
-	 * This method is invoked by the business logic (constructor of BLFacadeImplementation) when the option "initialize" is declared in the tag dataBaseOpenMode of resources/config.xml file
-	 */	
-	public void initializeDB(){
+	 * This is the data access method that initializes the database with some events
+	 * and questions. This method is invoked by the business logic (constructor of
+	 * BLFacadeImplementation) when the option "initialize" is declared in the tag
+	 * dataBaseOpenMode of resources/config.xml file
+	 */
+	public void initializeDB() {
 
 		db.getTransaction().begin();
 		try {
-			Admin Juan = new Admin("","","","Juan","Juan","","","","","","","","","");
+			Admin Juan = new Admin("", "", "", "Juan", "Juan", "", "", "", "", "", "", "", "", "");
 
-			Admin Admin = new Admin("","","","Admin","Admin","","","","","","","","","");
-			Langilea Langilea = new Langilea("","","","Langilea","Langilea","","","","","","","","","");
-			Erabiltzailea Erabiltzailea = new Erabiltzailea("","","","Erabiltzailea","Erabiltzailea","","","","","","","","","");
-			Erabiltzailea Mikel = new Erabiltzailea("","","","Mikel","Mikel","","","","","","","","","");
+			Admin Admin = new Admin("", "", "", "Admin", "Admin", "", "", "", "", "", "", "", "", "");
+			Langilea Langilea = new Langilea("", "", "", "Langilea", "Langilea", "", "", "", "", "", "", "", "", "");
+			Erabiltzailea Erabiltzailea = new Erabiltzailea("", "", "", "Erabiltzailea", "Erabiltzailea", "", "", "",
+					"", "", "", "", "", "");
+			Erabiltzailea Mikel = new Erabiltzailea("", "", "", "Mikel", "Mikel", "", "", "", "", "", "", "", "", "");
 
-
-			Admin asd = new Admin("","","","asd","asd","","","","","","","","","");
-			Admin a = new Admin("","","","Alvaro","1234","","","","","","","","","");
-			Langilea l = new Langilea("","","","Gorka","1234","","","","","","","","","");
-			Langilea Anonymous = new Langilea("","","","Anonymous","Anonymous","","","","","","","","","");
-			Erabiltzailea e1 = new Erabiltzailea("","","","Igor","1234","","","","","","","","","");
-			Erabiltzailea e2 = new Erabiltzailea("","","","David","1234","","","","","","","","","");
+			Admin asd = new Admin("", "", "", "asd", "asd", "", "", "", "", "", "", "", "", "");
+			Admin a = new Admin("", "", "", "Alvaro", "1234", "", "", "", "", "", "", "", "", "");
+			Langilea l = new Langilea("", "", "", "Gorka", "1234", "", "", "", "", "", "", "", "", "");
+			Langilea Anonymous = new Langilea("", "", "", "Anonymous", "Anonymous", "", "", "", "", "", "", "", "", "");
+			Erabiltzailea e1 = new Erabiltzailea("", "", "", "Igor", "1234", "", "", "", "", "", "", "", "", "");
+			Erabiltzailea e2 = new Erabiltzailea("", "", "", "David", "1234", "", "", "", "", "", "", "", "", "");
 
 			db.persist(Admin);
 			db.persist(Langilea);
@@ -120,57 +124,59 @@ public class DataAccess  {
 			db.persist(e1);
 			db.persist(e2);
 
-			Event ev1=new Event(1, "Atletico-Athletic", newDate(2019,1,17));
-			Event ev2=new Event(2, "Eibar-Barcelona", newDate(2019,1,17));
-			Event ev3=new Event(3, "Getafe-Celta", newDate(2019,1,17));
-			Event ev4=new Event(4, "Alavés-Deportivo", newDate(2019,1,17));
-			Event ev5=new Event(5, "Español-Villareal", newDate(2019,1,17));
-			Event ev6=new Event(6, "Las Palmas-Sevilla", newDate(2019,1,17));
-			Event ev7=new Event(7, "Malaga-Valencia", newDate(2019,1,17));
-			Event ev8=new Event(8, "Girona-Leganés", newDate(2019,1,17));
-			Event ev9=new Event(9, "Real Sociedad-Levante", newDate(2019,1,17));
-			Event ev10=new Event(10, "Betis-Real Madrid", newDate(2019,1,17));
+			Event ev1 = new Event(1, "Atletico-Athletic", newDate(2019, 1, 17));
+			Event ev2 = new Event(2, "Eibar-Barcelona", newDate(2019, 1, 17));
+			Event ev3 = new Event(3, "Getafe-Celta", newDate(2019, 1, 17));
+			Event ev4 = new Event(4, "Alavés-Deportivo", newDate(2019, 1, 17));
+			Event ev5 = new Event(5, "Español-Villareal", newDate(2019, 1, 17));
+			Event ev6 = new Event(6, "Las Palmas-Sevilla", newDate(2019, 1, 17));
+			Event ev7 = new Event(7, "Malaga-Valencia", newDate(2019, 1, 17));
+			Event ev8 = new Event(8, "Girona-Leganés", newDate(2019, 1, 17));
+			Event ev9 = new Event(9, "Real Sociedad-Levante", newDate(2019, 1, 17));
+			Event ev10 = new Event(10, "Betis-Real Madrid", newDate(2019, 1, 17));
 
-			Event ev11=new Event(11, "Atletico-Athletic", newDate(2019,2,1));
-			Event ev12=new Event(12, "Eibar-Barcelona", newDate(2019,2,1));
-			Event ev13=new Event(13, "Getafe-Celta", newDate(2019,2,1));
-			Event ev14=new Event(14, "Alavés-Deportivo", newDate(2019,2,1));
-			Event ev15=new Event(15, "Español-Villareal", newDate(2019,2,1));
-			Event ev16=new Event(16, "Las Palmas-Sevilla", newDate(2019,2,1));
+			Event ev11 = new Event(11, "Atletico-Athletic", newDate(2019, 2, 1));
+			Event ev12 = new Event(12, "Eibar-Barcelona", newDate(2019, 2, 1));
+			Event ev13 = new Event(13, "Getafe-Celta", newDate(2019, 2, 1));
+			Event ev14 = new Event(14, "Alavés-Deportivo", newDate(2019, 2, 1));
+			Event ev15 = new Event(15, "Español-Villareal", newDate(2019, 2, 1));
+			Event ev16 = new Event(16, "Las Palmas-Sevilla", newDate(2019, 2, 1));
 
-			Event ev17=new Event(17, "Malaga-Valencia", newDate(2019,2,31));
-			Event ev18=new Event(18, "Girona-Leganés", newDate(2019,2,31));
-			Event ev19=new Event(19, "Real Sociedad-Levante", newDate(2019,2,31));
-			Event ev20=new Event(20, "Betis-Real Madrid", newDate(2019,2,31));
+			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+			Date date = sdf.parse("17/12/2020");
 
-			Event ev21=new Event(21, "Atletico-Athletic", newDate(2019,3,10));
-			Event ev22=new Event(22, "Eibar-Barcelona", newDate(2019,3,10));
-			Event ev23=new Event(23, "Getafe-Celta", newDate(2019,3,10));
-			Event ev24=new Event(24, "Alavés-Deportivo", newDate(2019,3,10));
-			Event ev25=new Event(25, "Español-Villareal", newDate(2019,3,10));
-			Event ev26=new Event(26, "Las Palmas-Sevilla", newDate(2019,3,22));
-			Event ev27=new Event(27, "Malaga-Valencia", newDate(2019,3,22));
-			Event ev28=new Event(28, "Girona-Leganés", newDate(2019,3,22));
-			Event ev29=new Event(29, "Real Sociedad-Levante", newDate(2019,3,22));
-			Event ev30=new Event(30, "Betis-Real Madrid", newDate(2019,3,22));
+			Event ev17 = new Event(17, "Malaga-Valencia", date);
+			Event ev18 = new Event(18, "Girona-Leganés", date);
+			Event ev19 = new Event(19, "Real Sociedad-Levante", date);
+			Event ev20 = new Event(20, "Betis-Real Madrid", date);
 
-			Event ev31=new Event(31, "Atletico-Athletic", newDate(2019,4,4));
-			Event ev32=new Event(32, "Eibar-Barcelona", newDate(2019,4,4));
-			Event ev33=new Event(33, "Getafe-Celta", newDate(2019,4,4));
-			Event ev34=new Event(34, "Alavés-Deportivo", newDate(2019,4,4));
-			Event ev35=new Event(35, "Español-Villareal", newDate(2019,4,4));
-			Event ev36=new Event(36, "Las Palmas-Sevilla", newDate(2019,4,4));
+			Event ev21 = new Event(21, "Atletico-Athletic", newDate(2019, 3, 10));
+			Event ev22 = new Event(22, "Eibar-Barcelona", newDate(2019, 3, 10));
+			Event ev23 = new Event(23, "Getafe-Celta", newDate(2019, 3, 10));
+			Event ev24 = new Event(24, "Alavés-Deportivo", newDate(2019, 3, 10));
+			Event ev25 = new Event(25, "Español-Villareal", newDate(2019, 3, 10));
+			Event ev26 = new Event(26, "Las Palmas-Sevilla", newDate(2019, 3, 22));
+			Event ev27 = new Event(27, "Malaga-Valencia", newDate(2019, 3, 22));
+			Event ev28 = new Event(28, "Girona-Leganés", newDate(2019, 3, 22));
+			Event ev29 = new Event(29, "Real Sociedad-Levante", newDate(2019, 3, 22));
+			Event ev30 = new Event(30, "Betis-Real Madrid", newDate(2019, 3, 22));
 
-			Event ev37=new Event(37, "Malaga-Valencia", newDate(2019,4,24));
-			Event ev38=new Event(38, "Girona-Leganés", newDate(2019,4,24));
-			Event ev39=new Event(39, "Real Sociedad-Levante", newDate(2019,4,24));
-			Event ev40=new Event(40, "Betis-Real Madrid", newDate(2019,4,24));
+			Event ev31 = new Event(31, "Atletico-Athletic", newDate(2019, 4, 4));
+			Event ev32 = new Event(32, "Eibar-Barcelona", newDate(2019, 4, 4));
+			Event ev33 = new Event(33, "Getafe-Celta", newDate(2019, 4, 4));
+			Event ev34 = new Event(34, "Alavés-Deportivo", newDate(2019, 4, 4));
+			Event ev35 = new Event(35, "Español-Villareal", newDate(2019, 4, 4));
+			Event ev36 = new Event(36, "Las Palmas-Sevilla", newDate(2019, 4, 4));
 
-			Event ev41=new Event(41, "Rafa Nadal-Roger Federer", newDate(2019,4,13));
-			Event ev42=new Event(42, "100m-ko lasterketa", newDate(2019,4,9));
-			Event ev43=new Event(43, "McGregor-Floyd Mayweather", newDate(2019,4,13));
-			Event ev44=new Event(44, "Demoaren aurkezpena", newDate(2019,4,16));
+			Event ev37 = new Event(37, "Malaga-Valencia", newDate(2019, 4, 24));
+			Event ev38 = new Event(38, "Girona-Leganés", newDate(2019, 4, 24));
+			Event ev39 = new Event(39, "Real Sociedad-Levante", newDate(2019, 4, 24));
+			Event ev40 = new Event(40, "Betis-Real Madrid", newDate(2019, 4, 24));
 
+			Event ev41 = new Event(41, "Rafa Nadal-Roger Federer", newDate(2019, 4, 13));
+			Event ev42 = new Event(42, "100m-ko lasterketa", newDate(2019, 4, 9));
+			Event ev43 = new Event(43, "McGregor-Floyd Mayweather", newDate(2019, 4, 13));
+			Event ev44 = new Event(44, "Demoaren aurkezpena", newDate(2019, 4, 16));
 
 			Question q1;
 			Question q2;
@@ -202,99 +208,97 @@ public class DataAccess  {
 			Question q27;
 
 			if (Locale.getDefault().equals(new Locale("es"))) {
-				q1=ev1.addQuestion("¿Quien ganará el partido?",1);
-				q2=ev1.addQuestion("¿Quien meterá el primer gol?",2);
-				q3=ev11.addQuestion("¿Quien ganará el partido?",1);
-				q4=ev11.addQuestion("¿Cuántos goles se marcarán?",2);
-				q5=ev17.addQuestion("¿Quien ganará el partido?",1);
-				q6=ev17.addQuestion("¿Habrá goles en la primera parte?",2);
-				q7=ev18.addQuestion("¿Quien ganará el partido?",2);
-				q8=ev18.addQuestion("¿Que jugador hara la primera falta?",3);
-				q9=ev21.addQuestion("¿Quien ganará el partido?",5);
-				q10=ev21.addQuestion("¿Quien perdera el partido?",1);
+				q1 = ev1.addQuestion("¿Quien ganará el partido?", 1);
+				q2 = ev1.addQuestion("¿Quien meterá el primer gol?", 2);
+				q3 = ev11.addQuestion("¿Quien ganará el partido?", 1);
+				q4 = ev11.addQuestion("¿Cuántos goles se marcarán?", 2);
+				q5 = ev17.addQuestion("¿Quien ganará el partido?", 1);
+				q6 = ev17.addQuestion("¿Habrá goles en la primera parte?", 2);
+				q7 = ev18.addQuestion("¿Quien ganará el partido?", 2);
+				q8 = ev18.addQuestion("¿Que jugador hara la primera falta?", 3);
+				q9 = ev21.addQuestion("¿Quien ganará el partido?", 5);
+				q10 = ev21.addQuestion("¿Quien perdera el partido?", 1);
 				//
-				q11=ev26.addQuestion("¿Quien ganará el partido?",3);
-				q12=ev26.addQuestion("¿Quien meterá el primer gol?",2);
-				q13=ev33.addQuestion("¿Quien ganará el partido?",6);
-				q14=ev33.addQuestion("¿Cuántos goles se marcarán?",2);
-				q15=ev35.addQuestion("¿Quien ganará el partido?",3);
-				q16=ev35.addQuestion("¿Habrá goles en la primera parte?",7);
-				q17=ev37.addQuestion("¿Quien ganará el partido?",9);
-				q18=ev37.addQuestion("¿Que jugador hara la primera falta?",20);
-				q19=ev40.addQuestion("¿Quien ganará el partido?",4);
-				q20=ev40.addQuestion("¿Quien perdera el partido?",25);
+				q11 = ev26.addQuestion("¿Quien ganará el partido?", 3);
+				q12 = ev26.addQuestion("¿Quien meterá el primer gol?", 2);
+				q13 = ev33.addQuestion("¿Quien ganará el partido?", 6);
+				q14 = ev33.addQuestion("¿Cuántos goles se marcarán?", 2);
+				q15 = ev35.addQuestion("¿Quien ganará el partido?", 3);
+				q16 = ev35.addQuestion("¿Habrá goles en la primera parte?", 7);
+				q17 = ev37.addQuestion("¿Quien ganará el partido?", 9);
+				q18 = ev37.addQuestion("¿Que jugador hara la primera falta?", 20);
+				q19 = ev40.addQuestion("¿Quien ganará el partido?", 4);
+				q20 = ev40.addQuestion("¿Quien perdera el partido?", 25);
 
-				q21=ev41.addQuestion("¿Cuanto tiempo durara el partido?",20);
-				q22=ev41.addQuestion("¿Quien ganara el partido?",10);
-				q23=ev42.addQuestion("¿En que tiempo acabara la carrera el primer corredor?",20);
-				q24=ev42.addQuestion("¿Quien quedara en el primer puesto?",10);			
-				q25=ev43.addQuestion("¿Quien ganara?",5);
-				q26=ev43.addQuestion("¿Cuantas rondas durara el combate?",10);
-				q27=ev44.addQuestion("¿Cuanto tiempo durara?",2);
+				q21 = ev41.addQuestion("¿Cuanto tiempo durara el partido?", 20);
+				q22 = ev41.addQuestion("¿Quien ganara el partido?", 10);
+				q23 = ev42.addQuestion("¿En que tiempo acabara la carrera el primer corredor?", 20);
+				q24 = ev42.addQuestion("¿Quien quedara en el primer puesto?", 10);
+				q25 = ev43.addQuestion("¿Quien ganara?", 5);
+				q26 = ev43.addQuestion("¿Cuantas rondas durara el combate?", 10);
+				q27 = ev44.addQuestion("¿Cuanto tiempo durara?", 2);
 
-			}
-			else if (Locale.getDefault().equals(new Locale("en"))) {
-				q1=ev1.addQuestion("Who will win the match?",1);
-				q2=ev1.addQuestion("Who will score first?",2);
-				q3=ev11.addQuestion("Who will win the match?",1);
-				q4=ev11.addQuestion("How many goals will be scored in the match?",2);
-				q5=ev17.addQuestion("Who will win the match?",1);
-				q6=ev17.addQuestion("Will there be goals in the first half?",2);
-				q7=ev18.addQuestion("Who will win the match?",2);
-				q8=ev18.addQuestion("Which player will make the first foul?",3);
-				q9=ev21.addQuestion("Who will win the match?",5);
-				q10=ev21.addQuestion("Who will lose the match?",1);
+			} else if (Locale.getDefault().equals(new Locale("en"))) {
+				q1 = ev1.addQuestion("Who will win the match?", 1);
+				q2 = ev1.addQuestion("Who will score first?", 2);
+				q3 = ev11.addQuestion("Who will win the match?", 1);
+				q4 = ev11.addQuestion("How many goals will be scored in the match?", 2);
+				q5 = ev17.addQuestion("Who will win the match?", 1);
+				q6 = ev17.addQuestion("Will there be goals in the first half?", 2);
+				q7 = ev18.addQuestion("Who will win the match?", 2);
+				q8 = ev18.addQuestion("Which player will make the first foul?", 3);
+				q9 = ev21.addQuestion("Who will win the match?", 5);
+				q10 = ev21.addQuestion("Who will lose the match?", 1);
 				//
-				q11=ev26.addQuestion("Who will win the match?",3);
-				q12=ev26.addQuestion("Who will score the first goal?",2);
-				q13=ev33.addQuestion("Who will win the match?",6);
-				q14=ev33.addQuestion("How many goals will be scored?",2);
-				q15=ev35.addQuestion("Who will win the match?",3);
-				q16=ev35.addQuestion("Will there be goals in the first half?",7);
-				q17=ev37.addQuestion("Who will win the match?",9);
-				q18=ev37.addQuestion("Which player will make the first foul?",20);
-				q19=ev40.addQuestion("Who will win the match?",4);
-				q20=ev40.addQuestion("Who will lose the match?",25);
+				q11 = ev26.addQuestion("Who will win the match?", 3);
+				q12 = ev26.addQuestion("Who will score the first goal?", 2);
+				q13 = ev33.addQuestion("Who will win the match?", 6);
+				q14 = ev33.addQuestion("How many goals will be scored?", 2);
+				q15 = ev35.addQuestion("Who will win the match?", 3);
+				q16 = ev35.addQuestion("Will there be goals in the first half?", 7);
+				q17 = ev37.addQuestion("Who will win the match?", 9);
+				q18 = ev37.addQuestion("Which player will make the first foul?", 20);
+				q19 = ev40.addQuestion("Who will win the match?", 4);
+				q20 = ev40.addQuestion("Who will lose the match?", 25);
 
-				q21=ev41.addQuestion("How much time will the match finish?",20);
-				q22=ev41.addQuestion("who will win the match?",10);
-				q23=ev42.addQuestion("How much time will the race finish the first winner?",20);
-				q24=ev42.addQuestion("Who will stay in the first place?",10);
-				q25=ev43.addQuestion("Who will win?",5);
-				q26=ev43.addQuestion("Hown many rounds the fight will finish?",10);
-				q27=ev44.addQuestion("How much time this presentation will finsh?",2);
+				q21 = ev41.addQuestion("How much time will the match finish?", 20);
+				q22 = ev41.addQuestion("who will win the match?", 10);
+				q23 = ev42.addQuestion("How much time will the race finish the first winner?", 20);
+				q24 = ev42.addQuestion("Who will stay in the first place?", 10);
+				q25 = ev43.addQuestion("Who will win?", 5);
+				q26 = ev43.addQuestion("Hown many rounds the fight will finish?", 10);
+				q27 = ev44.addQuestion("How much time this presentation will finsh?", 2);
 
-			}			
-			else {
-				q1=ev1.addQuestion("Zeinek irabaziko du partidua?",1);
-				q2=ev1.addQuestion("Zeinek sartuko du lehenengo gola?",2);
-				q3=ev11.addQuestion("Zeinek irabaziko du partidua?",1);
-				q4=ev11.addQuestion("Zenbat gol sartuko dira?",2);
-				q5=ev17.addQuestion("Zeinek irabaziko du partidua?",1);
-				q6=ev17.addQuestion("Golak sartuko dira lehenengo zatian?",2);
-				q7=ev18.addQuestion("Zeinek irabaziko du partidua?",2);
-				q8=ev18.addQuestion("Zein jokalari egingo du lehen falta?",3);
-				q9=ev21.addQuestion("Zeinek irabaziko du partidua?",5);
-				q10=ev21.addQuestion("Zeinek galduko du partidua?",1);
+			} else {
+				q1 = ev1.addQuestion("Zeinek irabaziko du partidua?", 1);
+				q2 = ev1.addQuestion("Zeinek sartuko du lehenengo gola?", 2);
+				q3 = ev11.addQuestion("Zeinek irabaziko du partidua?", 1);
+				q4 = ev11.addQuestion("Zenbat gol sartuko dira?", 2);
+				q5 = ev17.addQuestion("Zeinek irabaziko du partidua?", 1);
+				q6 = ev17.addQuestion("Golak sartuko dira lehenengo zatian?", 2);
+				q7 = ev18.addQuestion("Zeinek irabaziko du partidua?", 2);
+				q8 = ev18.addQuestion("Zein jokalari egingo du lehen falta?", 3);
+				q9 = ev21.addQuestion("Zeinek irabaziko du partidua?", 5);
+				q10 = ev21.addQuestion("Zeinek galduko du partidua?", 1);
 				//
-				q11=ev26.addQuestion("Zeinek irabaziko du partidua?",3);
-				q12=ev26.addQuestion("Zeinek sartuko du lehenengo gola?",2);
-				q13=ev33.addQuestion("Zeinek irabaziko du partidua?",6);
-				q14=ev33.addQuestion("Zenbat gol sartuko dira?",2);
-				q15=ev35.addQuestion("Zeinek irabaziko du partidua?",3);
-				q16=ev35.addQuestion("Golak sartuko dira lehenengo zatian?",7);
-				q17=ev37.addQuestion("Zeinek irabaziko du partidua?",9);
-				q18=ev37.addQuestion("Zein jokalari egingo du lehen falta?",20);
-				q19=ev40.addQuestion("Zeinek irabaziko du partidua?",4);
-				q20=ev40.addQuestion("Zeinek galduko du partidua?",25);
+				q11 = ev26.addQuestion("Zeinek irabaziko du partidua?", 3);
+				q12 = ev26.addQuestion("Zeinek sartuko du lehenengo gola?", 2);
+				q13 = ev33.addQuestion("Zeinek irabaziko du partidua?", 6);
+				q14 = ev33.addQuestion("Zenbat gol sartuko dira?", 2);
+				q15 = ev35.addQuestion("Zeinek irabaziko du partidua?", 3);
+				q16 = ev35.addQuestion("Golak sartuko dira lehenengo zatian?", 7);
+				q17 = ev37.addQuestion("Zeinek irabaziko du partidua?", 9);
+				q18 = ev37.addQuestion("Zein jokalari egingo du lehen falta?", 20);
+				q19 = ev40.addQuestion("Zeinek irabaziko du partidua?", 4);
+				q20 = ev40.addQuestion("Zeinek galduko du partidua?", 25);
 
-				q21=ev41.addQuestion("Zenbat denbora iraungo du partiduak?",20);
-				q22=ev41.addQuestion("Nork irabaziko du partidua?",10);	
-				q23=ev42.addQuestion("Zenbat denbora egingo du lehenengo korrikalariak?",20);
-				q24=ev42.addQuestion("Nor geldituko da lehenengo postuan?",10);
-				q25=ev43.addQuestion("Nork irabaziko du?",5);
-				q26=ev43.addQuestion("Zenbat txanda iraungo ditu borrokak?",10);
-				q27=ev44.addQuestion("Zenbat denbora iraungo du demoak?",2);
+				q21 = ev41.addQuestion("Zenbat denbora iraungo du partiduak?", 20);
+				q22 = ev41.addQuestion("Nork irabaziko du partidua?", 10);
+				q23 = ev42.addQuestion("Zenbat denbora egingo du lehenengo korrikalariak?", 20);
+				q24 = ev42.addQuestion("Nor geldituko da lehenengo postuan?", 10);
+				q25 = ev43.addQuestion("Nork irabaziko du?", 5);
+				q26 = ev43.addQuestion("Zenbat txanda iraungo ditu borrokak?", 10);
+				q27 = ev44.addQuestion("Zenbat denbora iraungo du demoak?", 2);
 
 			}
 
@@ -309,8 +313,8 @@ public class DataAccess  {
 			Result r9 = q19.addResult("Betis", 8);
 			Result r10 = q20.addResult("Real Madrid", 8);
 
-			//r1 = q1.addResult("Athletic", 2);
-			//r2 = q9.addResult("Athletic", 3);
+			// r1 = q1.addResult("Athletic", 2);
+			// r2 = q9.addResult("Athletic", 3);
 			r3 = q10.addResult("Atletico", 3);
 			r4 = q11.addResult("Las Palmas", 3);
 			r5 = q12.addResult("Zuk", 2);
@@ -341,9 +345,6 @@ public class DataAccess  {
 			Result r48 = q26.addResult("+6 rounds", 8);
 			Result r49 = q27.addResult("+10m", 5);
 			Result r50 = q27.addResult("-10m", 2);
-
-
-
 
 			db.persist(r1);
 			db.persist(r2);
@@ -376,7 +377,6 @@ public class DataAccess  {
 			db.persist(r48);
 			db.persist(r49);
 			db.persist(r50);
-
 
 			db.persist(q1);
 			db.persist(q2);
@@ -451,14 +451,13 @@ public class DataAccess  {
 			db.persist(ev43);
 			db.persist(ev44);
 
-			Vector<Result> r =new Vector<Result>();
+			Vector<Result> r = new Vector<Result>();
 			r.add(r32);
 			r.add(r44);
 
-			Vector<Result> re =new Vector<Result>();
+			Vector<Result> re = new Vector<Result>();
 			re.add(r32);
 			re.add(r45);
-
 
 			db.getTransaction().commit();
 
@@ -466,67 +465,69 @@ public class DataAccess  {
 			superApustuaEgin(Mikel, 112, r);
 			superApustuaEgin(Mikel, 33, re);
 
-
-
-
-
 			System.out.println("Db initialized");
-		}
-		catch (Exception e){
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
 
-	//	----------------------------------------------------
+	// ----------------------------------------------------
 
 	/**
-	 * This method insert new user in database; if the user does not exist in Database
+	 * This method insert new user in database; if the user does not exist in
+	 * Database
 	 * 
-	 * @param Izena user name
-	 * @param Pasahitza user password
+	 * @param Izena
+	 *            user name
+	 * @param Pasahitza
+	 *            user password
 	 * @return true <--> user does not exists in database
 	 */
-	public boolean Register(boolean langileaDa, String iz,String ab1,String ab2,String erabiz,String pass,String NAN, String jd,String email,String tlf, String helb, String pstkod,String hrld, String prob,String herria) {
+	public boolean Register(boolean langileaDa, String iz, String ab1, String ab2, String erabiz, String pass,
+			String NAN, String jd, String email, String tlf, String helb, String pstkod, String hrld, String prob,
+			String herria) {
 		db.getTransaction().begin();
-		TypedQuery<User> query = db.createQuery("SELECT u FROM User u WHERE u.erabizena=?1 AND u.pasahitza=?2", User.class);
+		TypedQuery<User> query = db.createQuery("SELECT u FROM User u WHERE u.erabizena=?1 AND u.pasahitza=?2",
+				User.class);
 		query.setParameter(1, erabiz);
 		query.setParameter(2, pass);
 		List<User> users = query.getResultList();
 		db.getTransaction().commit();
-		if(users.isEmpty()) {
-			if(langileaDa) {
-				Langilea l = new Langilea(iz,ab1, ab2,erabiz,pass,NAN, jd,email,tlf, helb, pstkod,hrld, prob, herria);
+		if (users.isEmpty()) {
+			if (langileaDa) {
+				Langilea l = new Langilea(iz, ab1, ab2, erabiz, pass, NAN, jd, email, tlf, helb, pstkod, hrld, prob,
+						herria);
 				db.getTransaction().begin();
 				db.persist(l);
 				db.getTransaction().commit();
-			}
-			else {
-				Erabiltzailea u = new Erabiltzailea(iz,ab1, ab2,erabiz,pass,NAN, jd,email,tlf, helb, pstkod,hrld, prob, herria);
+			} else {
+				Erabiltzailea u = new Erabiltzailea(iz, ab1, ab2, erabiz, pass, NAN, jd, email, tlf, helb, pstkod, hrld,
+						prob, herria);
 				db.getTransaction().begin();
 				db.persist(u);
 				db.getTransaction().commit();
 
-			}	
+			}
 			return true;
-		}
-		else return false;
-
+		} else
+			return false;
 
 	}
 
 	public boolean isRegister(String erabIzena, String Pasahitza) {
-		TypedQuery<User> query = db.createQuery("SELECT u FROM User u WHERE u.erabizena=?1 AND u.pasahitza=?2", User.class);
+		TypedQuery<User> query = db.createQuery("SELECT u FROM User u WHERE u.erabizena=?1 AND u.pasahitza=?2",
+				User.class);
 		query.setParameter(1, erabIzena);
 		query.setParameter(2, Pasahitza);
 		List<User> users = query.getResultList();
 
-		if(users.isEmpty())
+		if (users.isEmpty())
 			return false;
 		else
 			return true;
 	}
 
-	//	----------------------------------------------------
+	// ----------------------------------------------------
 
 	public QuestionContainer getQuestionContainer(Question question) {
 		Question qu = db.find(Question.class, question.getQuestionNumber());
@@ -558,22 +559,23 @@ public class DataAccess  {
 		return MC;
 	}
 
-	//	----------------------------------------------------
+	// ----------------------------------------------------
 
 	/**
-	 * This method retrieves from the database the events of a given date 
+	 * This method retrieves from the database the events of a given date
 	 * 
-	 * @param date in which events are retrieved
+	 * @param date
+	 *            in which events are retrieved
 	 * @return collection of events
 	 */
 	public Vector<Event> getEvents(Date date) {
 		System.out.println(">> DataAccess: getEvents");
-		Vector<Event> res = new Vector<Event>();	
-		TypedQuery<Event> query = db.createQuery("SELECT ev FROM Event ev WHERE ev.eventDate=?1", Event.class);   
+		Vector<Event> res = new Vector<Event>();
+		TypedQuery<Event> query = db.createQuery("SELECT ev FROM Event ev WHERE ev.eventDate=?1", Event.class);
 		query.setParameter(1, date);
 		List<Event> events = query.getResultList();
-		for (Event ev:events){
-			System.out.println(ev.toString());		 
+		for (Event ev : events) {
+			System.out.println(ev.toString());
 			res.add(ev);
 		}
 		return res;
@@ -585,7 +587,7 @@ public class DataAccess  {
 		TypedQuery<Question> query = db.createQuery("SELECT qu FROM Question qu WHERE qu.event=?1", Question.class);
 		query.setParameter(1, event);
 		List<Question> question = query.getResultList();
-		for (Question quu:question){
+		for (Question quu : question) {
 			System.out.println(qu.toString());
 			qu.add(quu);
 		}
@@ -598,7 +600,7 @@ public class DataAccess  {
 		TypedQuery<Result> query = db.createQuery("SELECT re FROM Result re WHERE re.question=?1", Result.class);
 		query.setParameter(1, question);
 		List<Result> result = query.getResultList();
-		for (Result quu:result){
+		for (Result quu : result) {
 			System.out.println(qu.toString());
 			qu.add(quu);
 		}
@@ -626,17 +628,17 @@ public class DataAccess  {
 	}
 
 	public Erabiltzailea getErabiltzailea(String erab) {
-		Erabiltzailea er = db.find(Erabiltzailea.class, erab); 
+		Erabiltzailea er = db.find(Erabiltzailea.class, erab);
 		return er;
 	}
 
 	public Langilea getLangilea(String erab) {
-		Langilea la = db.find(Langilea.class, erab); 
+		Langilea la = db.find(Langilea.class, erab);
 		return la;
 	}
 
 	public Admin getAdmin(String erab) {
-		Admin ad = db.find(Admin.class, erab); 
+		Admin ad = db.find(Admin.class, erab);
 		return ad;
 	}
 
@@ -645,7 +647,7 @@ public class DataAccess  {
 		return result;
 	}
 
-	//	----------------------------------------------------
+	// ----------------------------------------------------
 
 	public void gertaeraBatBikoiztu(Event ev, Date data) {
 		Event newEvent, oldEvent;
@@ -657,9 +659,9 @@ public class DataAccess  {
 		db.getTransaction().begin();
 		newEvent = new Event(oldEvent.getDescription(), data);
 
-		for (Question oldQuestion : oldEvent.getQuestions()){
+		for (Question oldQuestion : oldEvent.getQuestions()) {
 			newQuestion = newEvent.addQuestion(oldQuestion.getQuestion(), oldQuestion.getBetMinimum());
-			for (Result oldResult : oldQuestion.getResults()){
+			for (Result oldResult : oldQuestion.getResults()) {
 				newResult = newQuestion.addResult(oldResult.getResult(), oldResult.getFee());
 				db.persist(newResult);
 			}
@@ -670,50 +672,65 @@ public class DataAccess  {
 	}
 
 	/**
-	 * This method creates a question for an event, with a question text and the minimum bet
+	 * This method creates a question for an event, with a question text and the
+	 * minimum bet
 	 * 
-	 * @param event to which question is added
-	 * @param question text of the question
-	 * @param betMinimum minimum quantity of the bet
+	 * @param event
+	 *            to which question is added
+	 * @param question
+	 *            text of the question
+	 * @param betMinimum
+	 *            minimum quantity of the bet
 	 * @return the created question, or null, or an exception
-	 * @throws QuestionAlreadyExist if the same question already exists for the event
+	 * @throws QuestionAlreadyExist
+	 *             if the same question already exists for the event
 	 */
-	public Question createQuestion(Event event, String question, float betMinimum) throws  QuestionAlreadyExist {
-		System.out.println(">> DataAccess: createQuestion=> event= "+event+" question= "+question+" betMinimum="+betMinimum);
+	public Question createQuestion(Event event, String question, float betMinimum) throws QuestionAlreadyExist {
+		System.out.println(">> DataAccess: createQuestion=> event= " + event + " question= " + question + " betMinimum="
+				+ betMinimum);
 
 		Event ev = db.find(Event.class, event.getEventNumber());
 
-		if (ev.DoesQuestionExists(question)) throw new QuestionAlreadyExist(ResourceBundle.getBundle("Etiquetas").getString("ErrorQueryAlreadyExist"));
+		if (ev.DoesQuestionExists(question))
+			throw new QuestionAlreadyExist(ResourceBundle.getBundle("Etiquetas").getString("ErrorQueryAlreadyExist"));
 
 		db.getTransaction().begin();
 		Question q = ev.addQuestion(question, betMinimum);
 
-		db.persist(ev); // db.persist(q) not required when CascadeType.PERSIST is added in questions property of Event class
+		db.persist(ev); // db.persist(q) not required when CascadeType.PERSIST is added in questions
+						// property of Event class
 		// @OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)
 		db.getTransaction().commit();
 		return q;
 	}
 
 	/**
-	 * This method creates a question for an event, with a question text and the minimum bet
+	 * This method creates a question for an event, with a question text and the
+	 * minimum bet
 	 * 
-	 * @param event to which question is added
-	 * @param question text of the question
-	 * @param betMinimum minimum quantity of the bet
+	 * @param event
+	 *            to which question is added
+	 * @param question
+	 *            text of the question
+	 * @param betMinimum
+	 *            minimum quantity of the bet
 	 * @return the created question, or null, or an exception
-	 * @throws QuestionAlreadyExist if the same question already exists for the event
+	 * @throws QuestionAlreadyExist
+	 *             if the same question already exists for the event
 	 */
-	public Result createFee(Question q, String res, float fee) throws  ResultAlreadyExist {
-		System.out.println(">> DataAccess: createFee=> Question= "+q+"Result= "+res+" betMinimum="+fee);
+	public Result createFee(Question q, String res, float fee) throws ResultAlreadyExist {
+		System.out.println(">> DataAccess: createFee=> Question= " + q + "Result= " + res + " betMinimum=" + fee);
 
 		Question qu = db.find(Question.class, q.getQuestionNumber());
 
-		if(qu.DoesResultExists(res)) throw new ResultAlreadyExist(ResourceBundle.getBundle("Etiquetas").getString("ErrorResultAlreadyExist"));
+		if (qu.DoesResultExists(res))
+			throw new ResultAlreadyExist(ResourceBundle.getBundle("Etiquetas").getString("ErrorResultAlreadyExist"));
 
 		db.getTransaction().begin();
-		Result r = qu.addResult(res,fee);
+		Result r = qu.addResult(res, fee);
 
-		db.persist(qu); // db.persist(q) not required when CascadeType.PERSIST is added in questions property of Event class
+		db.persist(qu); // db.persist(q) not required when CascadeType.PERSIST is added in questions
+						// property of Event class
 		// @OneToMany(fetch=FetchType.EAGER, cascade=CascadeType.PERSIST)
 		db.getTransaction().commit();
 		return r;
@@ -721,16 +738,15 @@ public class DataAccess  {
 
 	public boolean deleteEvent(Event e) {
 		boolean res = true;
-		Event ev = db.find(Event.class,e.getEventNumber());
+		Event ev = db.find(Event.class, e.getEventNumber());
 		try {
 			Vector<Question> questions = ev.getQuestions();
-			for(Question qu : questions)
+			for (Question qu : questions)
 				deleteQuestion(qu);
 			db.getTransaction().begin();
 			db.remove(ev);
 			db.getTransaction().commit();
-		}
-		catch(Exception e1) {
+		} catch (Exception e1) {
 			e1.printStackTrace();
 			res = false;
 		}
@@ -739,17 +755,16 @@ public class DataAccess  {
 
 	public boolean deleteQuestion(Question q) {
 		boolean res = true;
-		Question qu = db.find(Question.class,q.getQuestionNumber());
+		Question qu = db.find(Question.class, q.getQuestionNumber());
 		try {
 			Vector<Result> resq = qu.getResults();
-			for(int i = 0;i<resq.size();) {
-				deleteResult(resq.get(i)); 
+			for (int i = 0; i < resq.size();) {
+				deleteResult(resq.get(i));
 			}
 			db.getTransaction().begin();
 			getQuestionContainer(qu).getEvent().removeQuestion(qu);
 			db.getTransaction().commit();
-		}
-		catch(Exception e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 			res = false;
 		}
@@ -757,7 +772,8 @@ public class DataAccess  {
 	}
 
 	public boolean deleteResult(Result r) {
-		//System.out.println(">> DataAccess: createFee=> Question= "+q+"Result= "+res+" betMinimum="+fee);
+		// System.out.println(">> DataAccess: createFee=> Question= "+q+"Result= "+res+"
+		// betMinimum="+fee);
 		boolean res = true;
 		Vector<Erabiltzailea> erabs;
 		Result re;
@@ -772,11 +788,11 @@ public class DataAccess  {
 			// kontainer batzuk erabiliz
 
 			Vector<SuperBet> sbets = new Vector<SuperBet>();
-			for(Erabiltzailea er: erabs) {
+			for (Erabiltzailea er : erabs) {
 				sbets = er.removeSuperBetMatchResult(re);
 				if (sbets != null) {
-					for(SuperBet esb: sbets) {
-						for(Result r1: esb.getResults()) {
+					for (SuperBet esb : sbets) {
+						for (Result r1 : esb.getResults()) {
 							Result r2 = db.find(Result.class, r1.getFeeNumber());
 							r2.removeSuperBet(esb);
 						}
@@ -787,8 +803,7 @@ public class DataAccess  {
 			q.removeResult(re);
 
 			db.getTransaction().commit();
-		}
-		catch(Exception e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 			res = false;
 		}
@@ -796,10 +811,10 @@ public class DataAccess  {
 		return res;
 	}
 
-	//	----------------------------------------------------
+	// ----------------------------------------------------
 
 	public void addDirua(Erabiltzailea erab, float dirua) {
-		Erabiltzailea erabiltzailea = db.find(Erabiltzailea.class,erab);
+		Erabiltzailea erabiltzailea = db.find(Erabiltzailea.class, erab);
 
 		float hasierakoDirua = erabiltzailea.getDiruzorroa();
 
@@ -811,14 +826,16 @@ public class DataAccess  {
 		db.getTransaction().commit();
 	}
 
-	public void superApustuaEgin(Erabiltzailea erabiltzailea, float price, Vector<Result> results) throws NotEnoughMoney, betMinimum, SuperBetMinimumRes {
+	public void superApustuaEgin(Erabiltzailea erabiltzailea, float price, Vector<Result> results)
+			throws NotEnoughMoney, betMinimum, SuperBetMinimumRes {
 		float hasierakoDirua = erabiltzailea.getDiruzorroa();
 
 		db.getTransaction().begin();
 		SuperBet sb = erabiltzailea.addSuperBets(price, results);
 		sb.addResultsBet();
 		erabiltzailea.setDiruzorroa(hasierakoDirua - price);
-		erabiltzailea.addMugimendua(hasierakoDirua, (price)*(-1), hasierakoDirua - price, "APUSTU-ANITZA", new Date());
+		erabiltzailea.addMugimendua(hasierakoDirua, (price) * (-1), hasierakoDirua - price, "APUSTU-ANITZA",
+				new Date());
 
 		db.persist(erabiltzailea);
 		db.getTransaction().commit();
@@ -831,36 +848,36 @@ public class DataAccess  {
 		Bet bet = erabiltzailea.addEBets(price, res);
 		res.addBet(bet);
 		erabiltzailea.setDiruzorroa(hasierakoDirua - price);
-		erabiltzailea.addMugimendua(hasierakoDirua, (price)*(-1), hasierakoDirua - price, "APUSTUA", new Date());
+		erabiltzailea.addMugimendua(hasierakoDirua, (price) * (-1), hasierakoDirua - price, "APUSTUA", new Date());
 
 		db.persist(erabiltzailea);
 		db.getTransaction().commit();
 	}
 
 	public float getDirua(Erabiltzailea erab) {
-		Erabiltzailea erabiltzailea = db.find(Erabiltzailea.class,erab);
+		Erabiltzailea erabiltzailea = db.find(Erabiltzailea.class, erab);
 
 		return (erabiltzailea.getDiruzorroa());
 	}
 
 	public float getIrabazia() {
 		db.getTransaction().begin();
-		TypedQuery<Mugimendua> query = db.createQuery("SELECT mo FROM Mugimendua mo",Mugimendua.class);
+		TypedQuery<Mugimendua> query = db.createQuery("SELECT mo FROM Mugimendua mo", Mugimendua.class);
 		List<Mugimendua> qu = query.getResultList();
 		float irabazia = 0;
 
-		for(Mugimendua mu: qu) {
-			if(mu.getMota().compareTo("APUSTUA") == 0) {
-				irabazia += (-1)*mu.getDiruHeina();
+		for (Mugimendua mu : qu) {
+			if (mu.getMota().compareTo("APUSTUA") == 0) {
+				irabazia += (-1) * mu.getDiruHeina();
 			}
-			if(mu.getMota().compareTo("APUSTU-ANITZA") == 0) {
-				irabazia += (-1)*mu.getDiruHeina();
+			if (mu.getMota().compareTo("APUSTU-ANITZA") == 0) {
+				irabazia += (-1) * mu.getDiruHeina();
 			}
-			if(mu.getMota().compareTo("ITZULKETA") == 0) {
-				irabazia += (-1)*mu.getDiruHeina();
+			if (mu.getMota().compareTo("ITZULKETA") == 0) {
+				irabazia += (-1) * mu.getDiruHeina();
 			}
-			if(mu.getMota().compareTo("IRABAZIA") == 0) {
-				irabazia += (-1)*mu.getDiruHeina();
+			if (mu.getMota().compareTo("IRABAZIA") == 0) {
+				irabazia += (-1) * mu.getDiruHeina();
 			}
 		}
 		db.getTransaction().commit();
@@ -874,26 +891,27 @@ public class DataAccess  {
 		Result re = db.find(Result.class, emaitza);
 		Vector<Erabiltzailea> erabs = qu.WhatPeopleParticipate();
 		System.out.println(erabs.size());
-		if (qu.getEmaitzaFinala() != null) throw new EndResultAlreadyExists(ResourceBundle.getBundle("Etiquetas").getString("EndResultAlreadyExists"));
+		if (qu.getEmaitzaFinala() != null)
+			throw new EndResultAlreadyExists(ResourceBundle.getBundle("Etiquetas").getString("EndResultAlreadyExists"));
 
 		db.getTransaction().begin();
 		qu.setEmaitzaFinala(re.getResult());
 
-		for(Erabiltzailea er: erabs) 
+		for (Erabiltzailea er : erabs)
 			er.amIwinner(re);
 
 		db.getTransaction().commit();
 
 	}
 
-	//	----------------------------------------------------
+	// ----------------------------------------------------
 
-	public Vector<Erabiltzailea> getErabiltzaileak(){
+	public Vector<Erabiltzailea> getErabiltzaileak() {
 		System.out.println(">> DataAccess: getUsers");
 		Vector<Erabiltzailea> usersVector = new Vector<Erabiltzailea>();
 		TypedQuery<Erabiltzailea> query = db.createQuery("SELECT p FROM Erabiltzailea p", Erabiltzailea.class);
 		List<Erabiltzailea> users = query.getResultList();
-		for (Erabiltzailea u:users){
+		for (Erabiltzailea u : users) {
 			System.out.println(u.toString());
 			usersVector.add(u);
 		}
@@ -912,43 +930,41 @@ public class DataAccess  {
 					r.removeSuperBet(sb);
 			db.remove(e);
 			db.getTransaction().commit();
-		}
-		catch(Exception e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 			res = false;
 		}
 		return res;
 	}
 
-	//	----------------------------------------------------
+	// ----------------------------------------------------
 
-	public void close(){
+	public void close() {
 		db.close();
 		System.out.println("DataBase closed");
 	}
 
-	private Date newDate(int year,int month,int day) {
+	private Date newDate(int year, int month, int day) {
 
 		Calendar calendar = Calendar.getInstance();
-		calendar.set(year, month, day,0,0,0);
+		calendar.set(year, month, day, 0, 0, 0);
 		calendar.set(Calendar.MILLISECOND, 0);
 
 		return calendar.getTime();
 	}
-	
+
 	public Event addEvent(String desc, Date d) {
 		System.out.println(">> DataAccessTest: addEvent");
-		Event ev=null;
-			db.getTransaction().begin();
-			try {
-			    ev=new Event(desc,d);
-				db.persist(ev);
-				db.getTransaction().commit();
-			}
-			catch (Exception e){
-				e.printStackTrace();
-			}
-			return ev;
-    }
-	
+		Event ev = null;
+		db.getTransaction().begin();
+		try {
+			ev = new Event(desc, d);
+			db.persist(ev);
+			db.getTransaction().commit();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return ev;
+	}
+
 }

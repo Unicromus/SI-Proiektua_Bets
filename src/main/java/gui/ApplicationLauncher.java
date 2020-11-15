@@ -38,11 +38,7 @@ public class ApplicationLauncher {
 			BLFacade appFacadeInterface;
 			FactoryBLFacade factoryBLFacade = new FactoryBLFacade();
 
-			if (c.isBusinessLogicLocal()) {
-				appFacadeInterface = factoryBLFacade.localBLFacade(c);
-			} else { // Si es remoto
-				appFacadeInterface = factoryBLFacade.remoteBLFacade(c);
-			}
+			appFacadeInterface = factoryBLFacade.getBusinessLogicFactory(c);
 
 			/*
 			 * if (c.getDataBaseOpenMode().equals("initialize"))
